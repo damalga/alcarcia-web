@@ -1,0 +1,28 @@
+main{
+    padding: 0 1rem 2rem 1rem;
+    h2.releases-title{
+        padding: 1rem;
+    }
+    .release{
+        width: 25%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 0 1rem;
+        img{
+            width: 100%;
+            margin-bottom: .8rem;
+        }
+        .release-txt{
+            padding: .2rem;
+            .release-title,.label{
+                margin-bottom: 1rem;
+            }
+            .cat, .date{
+                text-align: right;
+            }
+            .cat, .tracklist, li{
+                margin-bottom: .4rem;
+            }
+        }
+    }
+}
