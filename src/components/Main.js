@@ -10,7 +10,18 @@ class Main extends React.Component{
   render (){    
     return (
       <main>
-        <h2 className="releases-title">Releases</h2>
+        <section className="release-rrss">
+          <h2 className="releases-title">Releases</h2>
+          <div className="rrss">
+            <ul className="rrss-list">
+              <li className="rs"><a href="https://soundcloud.com/alcarcia">Bandcamp</a></li>
+              <li className="rs"><a href="https://soundcloud.com/alcarcia">Discogs</a></li>
+              <li className="rs"><a href="https://soundcloud.com/alcarcia">Soundcloud</a></li>
+              <li className="rs"><a href="https://soundcloud.com/alcarcia">Facebook</a></li>
+              <li className="rs"><a href="https://soundcloud.com/alcarcia">Instagram</a></li>
+            </ul>
+          </div>
+        </section>
   
         <Release />
   
@@ -19,7 +30,7 @@ class Main extends React.Component{
           <div className="release-txt">
             <h3 className="release-title">Leafy Plains of Incoherence Between Shadows Until Dawn</h3>
             <h4 className="label">POLYMORPHISM RECORDS</h4>
-            <h5 className="cat">PM001</h5>
+            <h5 className="cat">PM001 (Double-vinyl)</h5>
             <h6 className="date">2019</h6>
             <ul className="tracklist">
               <li>01. Plain 1</li>
@@ -39,7 +50,7 @@ class Main extends React.Component{
           <div className="release-txt">
             <h3 className="release-title">Magia a la luz de bajo consumo</h3>
             <h4 className="label">Self-release</h4>
-            <h5 className="cat">ALCATAPE01</h5>
+            <h5 className="cat">ALCATAPE01 (Cassette)</h5>
             <h6 className="date">2020</h6>
             <ul className="tracklist">
               <li>01. Alcarcia - X Lewisham Way X</li>
@@ -52,6 +63,15 @@ class Main extends React.Component{
               <li>08. A Space Asoke Ratchada X (Xnx Rmx)</li>
               <li>09. Colombia X (Eduardo Dito Version)</li>
               <li>10. Fehrbelliner Straße X (Ruben Montesco)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="release">
+          <div className="others">
+            <h4 className="others-title">OTHERS</h4>
+            <ul className="others-list">
+              <li className="other"><a href="#">Karen Revisited Noise Cut (Intro Alcarcia)</a></li>
             </ul>
           </div>
         </div>

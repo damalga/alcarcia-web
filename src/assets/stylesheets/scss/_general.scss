@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: $dark-gray;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200vh;
+    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation .2s infinite;
+    opacity: .8;
+    visibility: visible;
+    z-index: -1;
+  }
+  
+  @keyframes bg-animation {
+      0% { transform: translate(0,0) }
+      10% { transform: translate(-5%,-5%) }
+      20% { transform: translate(-10%,5%) }
+      30% { transform: translate(5%,-10%) }
+      40% { transform: translate(-5%,15%) }
+      50% { transform: translate(-10%,5%) }
+      60% { transform: translate(15%,0) }
+      70% { transform: translate(0,10%) }
+      80% { transform: translate(-15%,0) }
+      90% { transform: translate(10%,5%) }
+      100% { transform: translate(5%,0) }
+  }
+
+.underlined {
+    flex: 1;
+    font-size: 2em;
+    line-height: 1.2;
+    text-decoration: none;
+    background-image: linear-gradient(to right, yellow 0, yellow 100%);
+    background-position: 0 1.2em;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background .5s;
+    &:hover, {
+      background-size: 100% 100%;
+    }
+    &--thin {
+      background-image: linear-gradient(to right, $light-gray 0, $light-gray 100%);
+    }
+  }

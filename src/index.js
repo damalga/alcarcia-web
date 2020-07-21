@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/Header';
 import Main from './components/Main';
-import Release from './components/Release';
+import Footer from './components/Footer';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Main />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('alcarcia')
 );

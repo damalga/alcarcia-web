@@ -1,27 +1,60 @@
 main{
-    padding: 0 1rem 2rem 1rem;
-    h2.releases-title{
-        padding: 1rem;
+    .release-rrss{
+        width: 100%;
+        border-bottom: $light-gray solid .05rem;
+        h2.releases-title, .rrss{
+            display: inline-block;
+        }
+        h2.releases-title{
+            width: 50%;
+            padding: 1rem;
+            border-right: $light-gray solid .05rem;
+        }
+        .rrss{
+            width: 50%;
+            padding: 1.25rem 1rem;
+            text-align: right;
+            vertical-align: bottom;
+            .rrss-list{
+                .rs{
+                    display: inline;
+                    margin-left: 1rem;
+                }
+            }
+        }
     }
     .release{
         width: 25%;
-        display: inline-block;
+        height: 100%;
+        display: table-cell;
         vertical-align: top;
-        padding: 0 1rem;
+        border-right: $light-gray solid .05rem;
+        &:last-child{
+            border-right: 0;
+        }
         img{
             width: 100%;
             margin-bottom: .8rem;
         }
         .release-txt{
-            padding: .2rem;
+            padding: 0 1rem 1rem;
             .release-title,.label{
                 margin-bottom: 1rem;
+            }
+            .release-title{
+                line-height: 2.4rem;
             }
             .cat, .date{
                 text-align: right;
             }
             .cat, .tracklist, li{
                 margin-bottom: .4rem;
+            }
+        }
+        .others{
+            padding: 1rem;
+            .others-title{
+                margin-bottom: 1rem;
             }
         }
     }
