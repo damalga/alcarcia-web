@@ -3,27 +3,23 @@ header{
     border-bottom: $light-gray solid .05rem;
     h1,p,.chip-pm-link{
         display: inline-block;
-        clear: both;
+        vertical-align: bottom;
     }
     h1{
-        padding: 1.2rem;
+        padding: 1rem;
         width: 25%;
         border-right: $light-gray solid .05rem;;
     }
     p{
-        width: calc(75% - 8%);
+        width: 65%;
         padding: 1rem;
     }
     .chip-pm-link{
-        width: 8%;
+        width: 10%;
         padding: 1rem;
         border-left: $light-gray solid .05rem;
-        display: inline-block;
-        vertical-align: bottom;
         img{
             width: 100%;
-            max-width: 76px;
-            min-width: 76px;
         }
     }
 }
