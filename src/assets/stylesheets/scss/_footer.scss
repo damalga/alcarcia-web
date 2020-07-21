@@ -1,11 +1,15 @@
 footer{
-    border-top: $light-gray solid .05rem;
     .support, .contact{
-        width: 50%;
-        padding: 2rem 1rem;
+        padding: 3rem 1rem 1rem;
         display: inline-block;
+        border-bottom: $light-gray solid .05rem;
+    }
+    .support{
+        width: 75%;
+        border-right: $light-gray solid .05rem;
     }
     .contact{
+        width: 25%;
         text-align: right;
     }
 }

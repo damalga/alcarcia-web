@@ -1,25 +1,29 @@
 header{
     overflow: hidden;
-    border-bottom: $light-gray solid .05rem;;
-    h1,p{
+    border-bottom: $light-gray solid .05rem;
+    h1,p,.chip-pm-link{
         display: inline-block;
         clear: both;
     }
     h1{
-        padding: 1rem;
+        padding: 1.2rem;
         width: 25%;
         border-right: $light-gray solid .05rem;;
     }
     p{
+        width: calc(75% - 8%);
         padding: 1rem;
-        width: calc(75% - 6.75%);
     }
     .chip-pm-link{
-        width: calc(6.75% - 1rem);
+        width: 8%;
+        padding: 1rem;
+        border-left: $light-gray solid .05rem;
         display: inline-block;
-        margin: 1rem 1rem 0 0;
+        vertical-align: bottom;
         img{
             width: 100%;
+            max-width: 76px;
+            min-width: 76px;
         }
     }
 }

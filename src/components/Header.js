@@ -10,7 +10,7 @@ class Header extends React.Component{
         <p>
           Co-founder of <a href="https://polymorphismrecords.com" target="_blank" rel="noopener noreferrer">Polymorphism Records</a>, currently based in Madrid.
         </p>
-        <a href="https://polymorphismrecords.com" className="chip-pm-link" target="_blank">
+        <a href="https://polymorphismrecords.com" className="chip-pm-link" target="_blank" rel="noopener noreferrer">
           <img src={chip} alt="Polymorphism Records - Microchip - Website"></img>
         </a>
       </header>

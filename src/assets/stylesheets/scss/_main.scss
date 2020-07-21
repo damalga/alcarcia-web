@@ -29,6 +29,7 @@ main{
         display: table-cell;
         vertical-align: top;
         border-right: $light-gray solid .05rem;
+        border-bottom: $light-gray solid .05rem;
         &:last-child{
             border-right: 0;
         }
