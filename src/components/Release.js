@@ -1,22 +1,30 @@
 import React from 'react';
-import cover1 from './../assets/img/cover1.jpg';
-import Data from './../data/data.json';
+
+const RELEASES_FOLDER = '/img/';
 
 class Release extends React.Component{
+
+   constructor(props) {
+        super(props);
+        this.state = {
+            release: this.props.release
+        }
+    }
+
     render () {
         return (
             <div className="release">
-                <img src={cover1} alt="BoSsOb cover"></img>
+                <img src={process.env.PUBLIC_URL + RELEASES_FOLDER + this.state.release.cover} alt="BoSsOb cover"></img>
                 <div className="release-txt">
-                    <h3 className="release-title">{Data.title}</h3>
-                    <h4 className="label">{Data.label}</h4>
-                    <h5 className="cat">{Data.cat}</h5>
-                    <h6 className="date">{Data.date}</h6>
+                    <h3 className="release-title">{this.state.release.title}</h3>
+                    <h4 className="label">{this.state.release.label}</h4>
+                    <h5 className="cat">{this.state.release.cat}</h5>
+                    <h6 className="date">{this.state.release.date}</h6>
                     <ul className="tracklist">
-                    <li>{Data.tracklist[1]}</li>
-                    <li>{Data.tracklist[2]}</li>
-                    <li>{Data.tracklist[3]}</li>
-                    <li>{Data.tracklist[4]}</li>
+                    <li>{this.state.release.tracklist[1]}</li>
+                    <li>{this.state.release.tracklist[2]}</li>
+                    <li>{this.state.release.tracklist[3]}</li>
+                    <li>{this.state.release.tracklist[4]}</li>
                     </ul>
                 </div>
             </div>

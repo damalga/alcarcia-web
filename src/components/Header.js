@@ -1,5 +1,4 @@
 import React from 'react';
-import chip from './../assets/img/chip-pm.png';
 import './../assets/stylesheets/css/style.css';
 
 class Header extends React.Component{
@@ -11,7 +10,7 @@ class Header extends React.Component{
           Co-founder of <a href="https://polymorphismrecords.com" target="_blank" rel="noopener noreferrer">Polymorphism Records</a>, currently based in Madrid.
         </p>
         <a href="https://polymorphismrecords.com" className="chip-pm-link" target="_blank" rel="noopener noreferrer">
-          <img src={chip} alt="Polymorphism Records - Microchip - Website"></img>
+          <img src={process.env.PUBLIC_URL + '/img/chip-pm.png'} alt="Polymorphism Records - Microchip - Website"></img>
         </a>
       </header>
     );

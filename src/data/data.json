@@ -1,6 +1,21 @@
+[
 {
     "id": 1,
-    "cover": "./img/cover1.jpg",
+    "cover": "/cover1.jpg",
+    "title": "BoSsOb",
+    "label": "Illegal Alien Records",
+    "cat": "IAR213 (Digital)",
+    "date": "2018",
+    "tracklist": {
+        "1": "01. BoS",
+        "2": "02. sOb",
+        "3": "03. BoS (Corvum Hypnotic Version)",
+        "4": "04. sOb (A Thousand Details Remix)"
+    }
+},
+{
+    "id": 2,
+    "cover": "/cover2.jpg",
     "title": "BoSsOb",
     "label": "Illegal Alien Records",
     "cat": "IAR213 (Digital)",
@@ -12,3 +27,4 @@
         "4": "04. sOb (A Thousand Details Remix)"
     }
 }
+]
