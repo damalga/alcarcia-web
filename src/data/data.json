@@ -20,16 +20,16 @@
         "label": "Polymorphism Records",
         "cat": "PM001 (Vinyl & Digital)",
         "date": "2019",
-        "tracklist": {
-            "1": "01. Plain 1",
-            "2": "02. Plain 2",
-            "3": "03. Plain 3",
-            "4": "04. Plain 4",
-            "5": "05. Plain 1 (Hector MAD remix)",
-            "6": "06. Plain 2 (Solarmetanl remix)",
-            "7": "07. Plain 3 (Neri J remix)",
-            "8": "08. Plain 4 (JLTZ remix)"
-        }
+        "tracklist": [
+            {"title":"01. Plain 1"},
+            {"title":"02. Plain 2"},
+            {"title":"03. Plain 3"},
+            {"title":"04. Plain 4"},
+            {"title":"05. Plain 1 (Hector MAD remix)"},
+            {"title":"06. Plain 2 (Solarmental remix)"},
+            {"title":"07. Plain 3 (Neri J MAD remix)"},
+            {"title":"08. Plain 4 (JLTZ remix)"}
+        ]
     },
     {
         "id": 3,
@@ -38,17 +38,17 @@
         "label": "Self-release",
         "cat": "Alcatape01 (Cassette & Digital)",
         "date": "2020",
-        "tracklist": {
-            "1": "01. X Lewisham Way",
-            "2": "02. Wilhelminaplein X",
-            "3": "03. A Space Asoke Ratchada X",
-            "4": "04. Colombia X",
-            "5": "05. Fehrbelliner Straße X",
-            "6": "06. X Lewisham Way (Marcos F Remix)",
-            "7": "07. Wilhelminaplein X (Aware Rework)",
-            "8": "08. A Space Asoke Ratchada X (Xnx Rmx)",
-            "9": "09. Colombia X (Eduardo Dito Version",
-            "10": "10. Fehrbelliner Straße X (Ruben Montesco Remix)"
-        }
+        "tracklist": [
+            {"title":"01. X Lewisham Way"},
+            {"title":"02. Wilhelminaplein X"},
+            {"title":"03. A Space Asoke Ratchada X"},
+            {"title":"04. Colombia X"},
+            {"title":"05. Fehrbelliner Straße X"},
+            {"title":"06. X Lewisham Way (Marcos F Remix)"},
+            {"title":"07. Wilhelminaplein X (Aware Rework)"},
+            {"title":"08. A Space Asoke Ratchada X (Xnx Rmx)"},
+            {"title":"09. Colombia X (Eduardo Dito Version)"},
+            {"title":"10. Fehrbelliner Straße X (Ruben Montesco Remix)"}
+        ]
     }
 ]
