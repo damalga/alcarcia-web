@@ -25,10 +25,10 @@
             "2": "02. Plain 2",
             "3": "03. Plain 3",
             "4": "04. Plain 4",
-            "5": "01. Plain 1 (Hector MAD remix)",
-            "6": "02. Plain 2 (Solarmetanl remix)",
-            "7": "03. Plain 3 (Neri J remix)",
-            "8": "04. Plain 4 (JLTZ remix)"
+            "5": "05. Plain 1 (Hector MAD remix)",
+            "6": "06. Plain 2 (Solarmetanl remix)",
+            "7": "07. Plain 3 (Neri J remix)",
+            "8": "08. Plain 4 (JLTZ remix)"
         }
     },
     {
@@ -36,7 +36,7 @@
         "cover": "/cover3.jpg",
         "title": "Magia a la luz de bajo consumo",
         "label": "Self-release",
-        "cat": "Alcatape (Cassette & Digital)",
+        "cat": "Alcatape01 (Cassette & Digital)",
         "date": "2020",
         "tracklist": {
             "1": "01. X Lewisham Way",
