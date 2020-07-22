@@ -56,6 +56,8 @@ table {
 body {
   display: table;
   background-color: #080808;
+  margin: 0 auto;
+  border: #F4F4F4 solid 0.05rem;
 }
 
 .bg {

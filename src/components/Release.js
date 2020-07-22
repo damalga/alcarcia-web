@@ -21,10 +21,9 @@ class Release extends React.Component{
                     <h5 className="cat">{this.state.release.cat}</h5>
                     <h6 className="date">{this.state.release.date}</h6>
                     <ul className="tracklist">
-                    <li>{this.state.release.tracklist[1]}</li>
-                    <li>{this.state.release.tracklist[2]}</li>
-                    <li>{this.state.release.tracklist[3]}</li>
-                    <li>{this.state.release.tracklist[4]}</li>
+                        {this.state.release.tracklist.map(track => {
+                            return (<li>{track.title}</li>)
+                        })}
                     </ul>
                 </div>
             </div>

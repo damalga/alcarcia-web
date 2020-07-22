@@ -1,30 +1,54 @@
 [
-{
-    "id": 1,
-    "cover": "/cover1.jpg",
-    "title": "BoSsOb",
-    "label": "Illegal Alien Records",
-    "cat": "IAR213 (Digital)",
-    "date": "2018",
-    "tracklist": {
-        "1": "01. BoS",
-        "2": "02. sOb",
-        "3": "03. BoS (Corvum Hypnotic Version)",
-        "4": "04. sOb (A Thousand Details Remix)"
+    {
+        "id": 1,
+        "cover": "/cover1.jpg",
+        "title": "BoSsOb",
+        "label": "Illegal Alien Records",
+        "cat": "IAR213 (Digital)",
+        "date": "2018",
+        "tracklist": [
+            {"title":"01. BoS"},
+            {"title":"02. sOb"},
+            {"title":"03. BoS (Corvum Hypnotic Version)"},
+            {"title":"04. sOb (A Thousand Details Remix)"}
+        ]
+    },
+    {
+        "id": 2,
+        "cover": "/cover2.jpg",
+        "title": "Leafy plains of incoherence between shadows until dawn",
+        "label": "Polymorphism Records",
+        "cat": "PM001 (Vinyl & Digital)",
+        "date": "2019",
+        "tracklist": {
+            "1": "01. Plain 1",
+            "2": "02. Plain 2",
+            "3": "03. Plain 3",
+            "4": "04. Plain 4",
+            "5": "01. Plain 1 (Hector MAD remix)",
+            "6": "02. Plain 2 (Solarmetanl remix)",
+            "7": "03. Plain 3 (Neri J remix)",
+            "8": "04. Plain 4 (JLTZ remix)"
+        }
+    },
+    {
+        "id": 3,
+        "cover": "/cover3.jpg",
+        "title": "Magia a la luz de bajo consumo",
+        "label": "Self-release",
+        "cat": "Alcatape (Cassette & Digital)",
+        "date": "2020",
+        "tracklist": {
+            "1": "01. X Lewisham Way",
+            "2": "02. Wilhelminaplein X",
+            "3": "03. A Space Asoke Ratchada X",
+            "4": "04. Colombia X",
+            "5": "05. Fehrbelliner Straße X",
+            "6": "06. X Lewisham Way (Marcos F Remix)",
+            "7": "07. Wilhelminaplein X (Aware Rework)",
+            "8": "08. A Space Asoke Ratchada X (Xnx Rmx)",
+            "9": "09. Colombia X (Eduardo Dito Version",
+            "10": "10. Fehrbelliner Straße X (Ruben Montesco Remix)"
+        }
     }
-},
-{
-    "id": 2,
-    "cover": "/cover2.jpg",
-    "title": "BoSsOb",
-    "label": "Illegal Alien Records",
-    "cat": "IAR213 (Digital)",
-    "date": "2018",
-    "tracklist": {
-        "1": "01. BoS",
-        "2": "02. sOb",
-        "3": "03. BoS (Corvum Hypnotic Version)",
-        "4": "04. sOb (A Thousand Details Remix)"
-    }
-}
 ]
