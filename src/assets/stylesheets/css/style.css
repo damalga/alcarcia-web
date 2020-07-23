@@ -57,6 +57,7 @@ body {
   display: table;
   background-color: #080808;
   margin: 0 auto;
+  max-width: 1280px;
   border: #F4F4F4 solid 0.05rem;
 }
 
@@ -168,54 +169,51 @@ p, label, span, a, li {
   font-size: 1em;
 }
 
-header {
-  overflow: hidden;
+header .section-1,
+header .section-2 {
+  display: flex;
+}
+header .section-1 {
   border-bottom: #F4F4F4 solid 0.05rem;
 }
-header h1, header p, header .chip-pm-link {
+header .section-1 h1, header .section-1 p, header .section-1 .chip-pm-link {
   display: inline-block;
-  vertical-align: bottom;
 }
-header h1 {
+header .section-1 h1 {
   padding: 1rem;
   width: 25%;
   border-right: #F4F4F4 solid 0.05rem;
 }
-header p {
+header .section-1 p {
   width: 65%;
   padding: 1rem;
 }
-header .chip-pm-link {
+header .section-1 .chip-pm-link {
   width: 10%;
   padding: 1rem;
   border-left: #F4F4F4 solid 0.05rem;
 }
-header .chip-pm-link img {
+header .section-1 .chip-pm-link img {
   width: 100%;
 }
-
-main .release-rrss {
+header .section-2 {
   width: 100%;
   border-bottom: #F4F4F4 solid 0.05rem;
 }
-main .release-rrss h2.releases-title, main .release-rrss .rrss {
+header .section-2 h2.releases-title, header .section-2 .rrss {
   display: inline-block;
 }
-main .release-rrss h2.releases-title {
-  width: 50%;
+header .section-2 h2.releases-title {
+  width: 75%;
   padding: 1rem;
   border-right: #F4F4F4 solid 0.05rem;
 }
-main .release-rrss .rrss {
-  width: 50%;
-  padding: 1.25rem 1rem;
+header .section-2 .contact {
+  width: 25%;
+  padding: 1rem;
   text-align: right;
-  vertical-align: bottom;
 }
-main .release-rrss .rrss .rrss-list .rs {
-  display: inline;
-  margin-left: 1rem;
-}
+
 main .release {
   width: 25%;
   height: 100%;
@@ -230,11 +228,12 @@ main .release:last-child {
 main .release img {
   width: 100%;
   margin-bottom: 0.8rem;
+  border-bottom: #F4F4F4 solid 0.05rem;
 }
 main .release .release-txt {
   padding: 0 1rem 1rem;
 }
-main .release .release-txt .release-title, main .release .release-txt .label {
+main .release .release-txt .release-title, main .release .release-txt .label, main .release .release-txt .date {
   margin-bottom: 1rem;
 }
 main .release .release-txt .release-title {
@@ -246,25 +245,131 @@ main .release .release-txt .cat, main .release .release-txt .date {
 main .release .release-txt .cat, main .release .release-txt .tracklist, main .release .release-txt li {
   margin-bottom: 0.4rem;
 }
-main .release .others {
+main .release.others {
   padding: 1rem;
 }
-main .release .others .others-title {
+main .release.others .others-title {
   margin-bottom: 1rem;
 }
 
+footer {
+  display: flex;
+}
 footer .support, footer .contact {
-  padding: 3rem 1rem 1rem;
+  padding: 1rem;
   display: inline-block;
-  border-bottom: #F4F4F4 solid 0.05rem;
 }
 footer .support {
-  width: 75%;
+  width: 50%;
   border-right: #F4F4F4 solid 0.05rem;
 }
-footer .contact {
-  width: 25%;
+footer .rrss {
+  width: 50%;
+  padding: 1rem;
   text-align: right;
+}
+footer .rrss .rrss-list .rs {
+  display: inline;
+  margin-left: 1rem;
+}
+footer .rrss .rrss-list .rs:first-child {
+  margin-left: 0;
+}
+
+@media (max-width: 968px) {
+  header .section-1 p {
+    width: 60%;
+  }
+  header .section-1 .chip-pm-link {
+    width: 15%;
+  }
+  header .section-2 h2.releases-title {
+    width: 50%;
+  }
+  header .section-2 .contact {
+    width: 50%;
+  }
+
+  main .release {
+    width: 33.33%;
+  }
+  main .release.others {
+    width: 100%;
+    display: block;
+  }
+}
+@media (max-width: 776px) {
+  h1 {
+    font-size: 2.4em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+
+  h5, h6, li {
+    font-size: 1em;
+  }
+
+  p, label, span, a, li {
+    font-size: 0.9em;
+  }
+
+  .main .release .release-txt .release-title {
+    line-height: 2rem;
+  }
+}
+@media (max-width: 624px) {
+  header .section-1,
+header .section-2 {
+    display: block;
+  }
+  header .section-1 h1,
+header .section-2 h1 {
+    width: 100%;
+    border-bottom: #F4F4F4 solid 0.05rem;
+  }
+  header .section-1 p,
+header .section-2 p {
+    width: 85%;
+  }
+
+  main .release {
+    display: block;
+    width: 100%;
+    border-right: 0;
+  }
+
+  footer {
+    display: block;
+  }
+  footer .support,
+footer .rrss {
+    width: 100%;
+    border-right: 0;
+  }
+  footer .support {
+    border-bottom: #F4F4F4 solid 0.05rem;
+  }
+}
+@media (max-width: 440px) {
+  header .section-1 p {
+    width: 75%;
+  }
+  header .section-1 .chip-pm-link {
+    width: 25%;
+  }
+  header .section-2 .contact {
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

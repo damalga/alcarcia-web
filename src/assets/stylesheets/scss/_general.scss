@@ -2,6 +2,7 @@ body {
     display: table;
     background-color: $dark-gray;
     margin: 0 auto;
+    max-width: 1280px;
     border: $light-gray solid .05rem;
 }
 

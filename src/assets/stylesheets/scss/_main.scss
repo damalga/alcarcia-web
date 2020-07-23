@@ -1,28 +1,4 @@
 main{
-    .release-rrss{
-        width: 100%;
-        border-bottom: $light-gray solid .05rem;
-        h2.releases-title, .rrss{
-            display: inline-block;
-        }
-        h2.releases-title{
-            width: 50%;
-            padding: 1rem;
-            border-right: $light-gray solid .05rem;
-        }
-        .rrss{
-            width: 50%;
-            padding: 1.25rem 1rem;
-            text-align: right;
-            vertical-align: bottom;
-            .rrss-list{
-                .rs{
-                    display: inline;
-                    margin-left: 1rem;
-                }
-            }
-        }
-    }
     .release{
         width: 25%;
         height: 100%;
@@ -36,10 +12,11 @@ main{
         img{
             width: 100%;
             margin-bottom: .8rem;
+            border-bottom: $light-gray solid .05rem;
         }
         .release-txt{
             padding: 0 1rem 1rem;
-            .release-title,.label{
+            .release-title,.label,.date{
                 margin-bottom: 1rem;
             }
             .release-title{
@@ -52,11 +29,11 @@ main{
                 margin-bottom: .4rem;
             }
         }
-        .others{
-            padding: 1rem;
-            .others-title{
-                margin-bottom: 1rem;
-            }
+    }
+    .release.others{
+        padding: 1rem;
+        .others-title{
+            margin-bottom: 1rem;
         }
     }
 }
