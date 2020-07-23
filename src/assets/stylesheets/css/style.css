@@ -53,6 +53,42 @@ table {
   box-sizing: border-box !important;
 }
 
+.poly-red:hover {
+  color: #C81414;
+}
+
+.alca-yellow:hover {
+  color: #F9EC03;
+}
+
+.alien-gray:hover {
+  color: #9E9E9E;
+}
+
+.bc:hover {
+  color: #619AA9;
+}
+
+.dg:hover {
+  color: #232323;
+}
+
+.sc:hover {
+  color: #EC5405;
+}
+
+.fb:hover {
+  color: #3B5998;
+}
+
+.ig:hover {
+  color: #DD2A7B;
+}
+
+.precious-plastic:hover {
+  color: #B7D8E5;
+}
+
 body {
   display: table;
   background-color: #080808;

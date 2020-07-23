@@ -1,8 +1,11 @@
 [
     {
         "id": 1,
+        "linkRelease": "https://illegalalienrecords.bandcamp.com/album/bossob-ep",
+        "linkColor": "alien-gray",
         "cover": "/cover1.jpg",
         "title": "BoSsOb",
+        "linkLabel": "https://illegalalienrecords.bandcamp.com",
         "label": "Illegal Alien Records",
         "cat": "IAR213 (Digital)",
         "date": "2018",
@@ -15,8 +18,11 @@
     },
     {
         "id": 2,
+        "linkRelease": "https://polymorphism.bandcamp.com/album/leafy-plains-of-incoherence-between-shadows-until-dawn-pm001",
+        "linkColor": "poly-red",
         "cover": "/cover2.jpg",
         "title": "Leafy plains of incoherence between shadows until dawn",
+        "linkLabel": "https://polymorphism.bandcamp.com",
         "label": "Polymorphism Records",
         "cat": "PM001 (Vinyl & Digital)",
         "date": "2019",
@@ -33,10 +39,13 @@
     },
     {
         "id": 3,
+        "linkRelease": "https://alcarcia.bandcamp.com/album/magia-a-la-luz-de-bajo-consumo",
+        "linkColor": "alca-yellow",
         "cover": "/cover3.jpg",
         "title": "Magia a la luz de bajo consumo",
-        "label": "Self-release",
-        "cat": "Alcatape01 (Cassette & Digital)",
+        "linkLabel": "https://illegalalienrecords.bandcamp.com",
+        "label": "Self-release [ALCATAPES]",
+        "cat": "ALCATAPE01 (Cassette & Digital)",
         "date": "2020",
         "tracklist": [
             {"title":"01. X Lewisham Way"},
