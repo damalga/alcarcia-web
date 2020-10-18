@@ -70,7 +70,7 @@ table {
 }
 
 .dg:hover {
-  color: #232323;
+  color: #d8d8d8;
 }
 
 .sc:hover {
@@ -228,9 +228,13 @@ header .section-1 .chip-pm-link {
   width: 10%;
   padding: 1rem;
   border-left: #F4F4F4 solid 0.05rem;
+  text-align: center;
 }
 header .section-1 .chip-pm-link img {
-  width: 100%;
+  width: 76%;
+}
+header .section-1 .chip-pm-link img:hover {
+  opacity: 0.6;
 }
 header .section-2 {
   width: 100%;
@@ -286,6 +290,12 @@ main .release.others {
 }
 main .release.others .others-title {
   margin-bottom: 1rem;
+}
+main .release.others .others-list .other {
+  margin-bottom: 0.8rem;
+}
+main .release.others .others-list .other:hover {
+  opacity: 0.6;
 }
 
 footer {

@@ -21,8 +21,12 @@ header{
             width: 10%;
             padding: 1rem;
             border-left: $light-gray solid .05rem;
+            text-align: center;
             img{
-                width: 100%;
+                width: 76%;
+                &:hover{
+                    opacity: .6;
+                }
             }
         }
     }

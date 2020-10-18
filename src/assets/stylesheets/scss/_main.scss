@@ -35,5 +35,13 @@ main{
         .others-title{
             margin-bottom: 1rem;
         }
+        .others-list{
+            .other{
+                margin-bottom: .8rem;
+                &:hover{
+                    opacity: .6;
+                }
+            }
+        }
     }
 }
