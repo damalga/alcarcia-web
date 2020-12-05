@@ -10,11 +10,11 @@ class Footer extends React.Component{
           </section>
           <section className="rrss">
             <ul className="rrss-list">
-              <li className="rs"><a className="dg" href="https://www.discogs.com/artist/6426813-Alcarcia">Discogs</a></li>
-              <li className="rs"><a className="bc" href="https://alcarcia.bandcamp.com/releases">Bandcamp</a></li>
-              <li className="rs"><a className="sc" href="https://soundcloud.com/alcarcia">Soundcloud</a></li>
-              <li className="rs"><a className="fb" href="https://www.facebook.com/alcarcia/">Facebook</a></li>
-              <li className="rs"><a className="ig" href="https://www.instagram.com/alcarcia/">Instagram</a></li>
+              <li className="rs"><a className="dg" href="https://www.discogs.com/artist/6426813-Alcarcia" target="_blank">Discogs</a></li>
+              <li className="rs"><a className="bc" href="https://alcarcia.bandcamp.com/releases" target="_blank">Bandcamp</a></li>
+              <li className="rs"><a className="sc" href="https://soundcloud.com/alcarcia" target="_blank">Soundcloud</a></li>
+              <li className="rs"><a className="fb" href="https://www.facebook.com/alcarcia/" target="_blank">Facebook</a></li>
+              <li className="rs"><a className="ig" href="https://www.instagram.com/alcarcia/" target="_blank">Instagram</a></li>
             </ul>
           </section>
       </footer>
