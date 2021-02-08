@@ -7,8 +7,8 @@ class Others extends React.Component{
         <section className="release others">
           <h4 className="others-title">OTHERS</h4>
           <ul className="others-list">
-            <li className="other"><a href="https://soundcloud.com/alcarcia/sets/mixes" target="_blank">Mixes</a></li>
-            <li className="other"><a href="https://unsolvedlabel.bandcamp.com/track/fluotexin-original-mix" target="_blank">Fluotexin (Original Mix)</a></li>
+            <li className="other"><a href="https://soundcloud.com/alcarcia/sets/mixes" target="_blank" rel="noopener noreferrer">Mixes</a></li>
+            <li className="other"><a href="https://unsolvedlabel.bandcamp.com/track/fluotexin-original-mix" target="_blank" rel="noopener noreferrer">Fluotexin (Original Mix)</a></li>
           </ul>
         </section>
     );
