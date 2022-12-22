@@ -1,7 +1,6 @@
 import React from 'react';
 import Releases from './Releases';
 import Other from './Other';
-import tippy from 'tippy.js';
 import './../assets/stylesheets/css/style.css';
 
 class Main extends React.Component{
