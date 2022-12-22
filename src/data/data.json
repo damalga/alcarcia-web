@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": 1,
         "linkRelease": "https://illegalalienrecords.bandcamp.com/album/bossob-ep",
         "linkColor": "alien-gray",
@@ -10,10 +9,10 @@
         "cat": "IAR213 (Digital)",
         "date": "2018",
         "tracklist": [
-            {"title":"01. BoS"},
-            {"title":"02. sOb"},
-            {"title":"03. BoS (Corvum Hypnotic Version)"},
-            {"title":"04. sOb (A Thousand Details Remix)"}
+            { "title": "01. BoS" },
+            { "title": "02. sOb" },
+            { "title": "03. BoS (Corvum Hypnotic Version)" },
+            { "title": "04. sOb (A Thousand Details Remix)" }
         ]
     },
     {
@@ -27,14 +26,14 @@
         "cat": "PM001 (Vinyl & Digital)",
         "date": "2019",
         "tracklist": [
-            {"title":"01. Plain 1"},
-            {"title":"02. Plain 2"},
-            {"title":"03. Plain 3"},
-            {"title":"04. Plain 4"},
-            {"title":"05. Plain 1 (Hector MAD remix)"},
-            {"title":"06. Plain 2 (Solarmental remix)"},
-            {"title":"07. Plain 3 (Neri J MAD remix)"},
-            {"title":"08. Plain 4 (JLTZ remix)"}
+            { "title": "01. Plain 1" },
+            { "title": "02. Plain 2" },
+            { "title": "03. Plain 3" },
+            { "title": "04. Plain 4" },
+            { "title": "05. Plain 1 (Hector MAD remix)" },
+            { "title": "06. Plain 2 (Solarmental remix)" },
+            { "title": "07. Plain 3 (Neri J MAD remix)" },
+            { "title": "08. Plain 4 (JLTZ remix)" }
         ]
     },
     {
@@ -43,21 +42,35 @@
         "linkColor": "alca-yellow",
         "cover": "/cover3.jpg",
         "title": "Magia a la luz de bajo consumo",
-        "linkLabel": "https://illegalalienrecords.bandcamp.com",
+        "linkLabel": "https://alcarcia.bandcamp.com/music",
         "label": "Self-release [ALCATAPES]",
         "cat": "ALCATAPE01 (Cassette & Digital)",
         "date": "2020",
         "tracklist": [
-            {"title":"01. X Lewisham Way"},
-            {"title":"02. Wilhelminaplein X"},
-            {"title":"03. A Space Asoke Ratchada X"},
-            {"title":"04. Colombia X"},
-            {"title":"05. Fehrbelliner Straße X"},
-            {"title":"06. X Lewisham Way (Marcos F Remix)"},
-            {"title":"07. Wilhelminaplein X (Aware Rework)"},
-            {"title":"08. A Space Asoke Ratchada X (Xnx Rmx)"},
-            {"title":"09. Colombia X (Eduardo Dito Version)"},
-            {"title":"10. Fehrbelliner Straße X (Ruben Montesco Remix)"}
+            { "title": "01. X Lewisham Way" },
+            { "title": "02. Wilhelminaplein X" },
+            { "title": "03. A Space Asoke Ratchada X" },
+            { "title": "04. Colombia X" },
+            { "title": "05. Fehrbelliner Straße X" },
+            { "title": "06. X Lewisham Way (Marcos F Remix)" },
+            { "title": "07. Wilhelminaplein X (Aware Rework)" },
+            { "title": "08. A Space Asoke Ratchada X (Xnx Rmx)" },
+            { "title": "09. Colombia X (Eduardo Dito Version)" },
+            { "title": "10. Fehrbelliner Straße X (Ruben Montesco Remix)" }
+        ]
+    },
+    {
+        "id": 4,
+        "linkRelease": "https://alcarcia.bandcamp.com/album/cualquier-parecido-con-la-coincidencia-es-mera-casualidad-alcatape02",
+        "linkColor": "alca-yellow",
+        "cover": "/cover4.jpg",
+        "title": "Cualquier parecido con la coincidencia es mera casualidad",
+        "linkLabel": "https://alcarcia.bandcamp.com/music",
+        "label": "Self-release [ALCATAPES]",
+        "cat": "ALCATAPE02 (Cassette & Digital)",
+        "date": "2022",
+        "tracklist": [
+            { "title": "Various Artists Compilation" }
         ]
     }
 ]

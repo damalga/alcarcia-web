@@ -254,54 +254,82 @@ header .section-2 .contact {
   text-align: right;
 }
 
-main .release {
+main section.releases,
+main aside.others {
+  display: inline-block;
+}
+main section.releases {
+  width: 75%;
+}
+main section.releases .release {
   width: 25%;
-  height: 100%;
   display: table-cell;
-  vertical-align: top;
   border-right: #F4F4F4 solid 0.05rem;
   border-bottom: #F4F4F4 solid 0.05rem;
 }
-main .release:last-child {
-  border-right: 0;
-}
-main .release img {
+main section.releases .release img {
   width: 100%;
   margin-bottom: 0.8rem;
   border-bottom: #F4F4F4 solid 0.05rem;
 }
-main .release .release-txt {
+main section.releases .release .release-txt {
   padding: 0 1rem 1rem;
 }
-main .release .release-txt .release-title, main .release .release-txt .label, main .release .release-txt .date {
+main section.releases .release .release-txt .release-title,
+main section.releases .release .release-txt .label,
+main section.releases .release .release-txt .date {
   margin-bottom: 1rem;
 }
-main .release .release-txt .release-title {
+main section.releases .release .release-txt .release-title {
   line-height: 2.4rem;
 }
-main .release .release-txt .cat, main .release .release-txt .date {
+main section.releases .release .release-txt .cat,
+main section.releases .release .release-txt .date {
   text-align: right;
 }
-main .release .release-txt .cat, main .release .release-txt .tracklist, main .release .release-txt li {
+main section.releases .release .release-txt .cat,
+main section.releases .release .release-txt .tracklist,
+main section.releases .release .release-txt li {
   margin-bottom: 0.4rem;
 }
-main .release.others {
-  padding: 1rem;
+main section.releases .release:last-child {
+  display: table;
+  width: 100%;
+  border-bottom: 0;
 }
-main .release.others .others-title {
+main section.releases .release:last-child img,
+main section.releases .release:last-child .release-txt {
+  display: inline-block;
+}
+main section.releases .release:last-child img {
+  width: 66.66%;
+  margin-bottom: 0;
+}
+main section.releases .release:last-child .release-txt {
+  width: 33.33%;
+  padding: 1rem;
+  vertical-align: top;
+}
+main aside.others {
+  padding: 1rem;
+  vertical-align: top;
+}
+main aside.others .others-title {
   margin-bottom: 1rem;
 }
-main .release.others .others-list .other {
+main aside.others .others-list .other {
   margin-bottom: 0.8rem;
 }
-main .release.others .others-list .other:hover {
+main aside.others .others-list .other:hover {
   opacity: 0.6;
 }
 
 footer {
   display: flex;
+  border-TOP: #F4F4F4 solid 0.05rem;
 }
-footer .support, footer .contact {
+footer .support,
+footer .contact {
   padding: 1rem;
   display: inline-block;
 }
@@ -335,7 +363,6 @@ footer .rrss .rrss-list .rs:first-child {
   header .section-2 .contact {
     width: 50%;
   }
-
   main .release {
     width: 33.33%;
   }
@@ -348,57 +375,49 @@ footer .rrss .rrss-list .rs:first-child {
   h1 {
     font-size: 2.4em;
   }
-
   h2 {
     font-size: 2em;
   }
-
   h3 {
     font-size: 1.6em;
   }
-
   h4 {
     font-size: 1.2em;
   }
-
   h5, h6, li {
     font-size: 1em;
   }
-
   p, label, span, a, li {
     font-size: 0.9em;
   }
-
   .main .release .release-txt .release-title {
     line-height: 2rem;
   }
 }
 @media (max-width: 624px) {
   header .section-1,
-header .section-2 {
+  header .section-2 {
     display: block;
   }
   header .section-1 h1,
-header .section-2 h1 {
+  header .section-2 h1 {
     width: 100%;
     border-bottom: #F4F4F4 solid 0.05rem;
   }
   header .section-1 p,
-header .section-2 p {
+  header .section-2 p {
     width: 85%;
   }
-
   main .release {
     display: block;
     width: 100%;
     border-right: 0;
   }
-
   footer {
     display: block;
   }
   footer .support,
-footer .rrss {
+  footer .rrss {
     width: 100%;
     border-right: 0;
   }

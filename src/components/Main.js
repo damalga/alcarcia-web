@@ -1,12 +1,13 @@
 import React from 'react';
 import Releases from './Releases';
-import Others from './Others';
+import Other from './Other';
+import tippy from 'tippy.js';
 import './../assets/stylesheets/css/style.css';
 
 class Main extends React.Component{
 
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       releases: []
     }
@@ -15,10 +16,13 @@ class Main extends React.Component{
   render (){    
     return (
       <main>
-  
-        <Releases/>
+        <section className='releases'>
+          <Releases/>
+        </section>
 
-        <Others/>
+        <aside className='others'>
+          <Other/>
+        </aside>
   
       </main>
     );

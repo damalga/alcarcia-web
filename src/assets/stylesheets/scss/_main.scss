@@ -1,44 +1,70 @@
-main{
-    .release{
-        width: 25%;
-        height: 100%;
-        display: table-cell;
-        vertical-align: top;
-        border-right: $light-gray solid .05rem;
-        border-bottom: $light-gray solid .05rem;
-        &:last-child{
-            border-right: 0;
-        }
-        img{
-            width: 100%;
-            margin-bottom: .8rem;
+main {
+    section.releases,
+    aside.others {
+        display: inline-block;
+    }
+    section.releases {
+        width: 75%;
+        .release {
+            width: 25%;
+            display: table-cell;
+            border-right: $light-gray solid .05rem;
             border-bottom: $light-gray solid .05rem;
-        }
-        .release-txt{
-            padding: 0 1rem 1rem;
-            .release-title,.label,.date{
-                margin-bottom: 1rem;
+            img {
+                width: 100%;
+                margin-bottom: .8rem;
+                border-bottom: $light-gray solid .05rem;
             }
-            .release-title{
-                line-height: 2.4rem;
+            .release-txt {
+                padding: 0 1rem 1rem;
+                .release-title,
+                .label,
+                .date {
+                    margin-bottom: 1rem;
+                }
+                .release-title {
+                    line-height: 2.4rem;
+                }
+                .cat,
+                .date {
+                    text-align: right;
+                }
+                .cat,
+                .tracklist,
+                li {
+                    margin-bottom: .4rem;
+                }
             }
-            .cat, .date{
-                text-align: right;
-            }
-            .cat, .tracklist, li{
-                margin-bottom: .4rem;
+            &:last-child {
+                display: table;
+                width: 100%;
+                border-bottom: 0;
+                img,
+                .release-txt {
+                    display: inline-block;
+                }
+                img {
+                    width: 66.66%;
+                    margin-bottom: 0;
+                }
+                .release-txt {
+                    width: 33.33%;
+                    padding: 1rem;
+                    vertical-align: top;
+                }
             }
         }
     }
-    .release.others{
+    aside.others {
         padding: 1rem;
-        .others-title{
+        vertical-align: top;
+        .others-title {
             margin-bottom: 1rem;
         }
-        .others-list{
-            .other{
+        .others-list {
+            .other {
                 margin-bottom: .8rem;
-                &:hover{
+                &:hover {
                     opacity: .6;
                 }
             }

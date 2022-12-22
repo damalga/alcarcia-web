@@ -15,7 +15,7 @@ class Release extends React.Component{
         return (
             <div className="release">
                 <a href={this.state.release.linkRelease} target="_blank" rel="noopener noreferrer">
-                    <img src={process.env.PUBLIC_URL + RELEASES_FOLDER + this.state.release.cover} alt="BoSsOb cover"></img>
+                    <img src={process.env.PUBLIC_URL + RELEASES_FOLDER + this.state.release.cover} alt="cover"></img>
                 </a>
                 <div className="release-txt">
                     <a href={this.state.release.linkRelease} className={this.state.release.linkColor} target="_blank" rel="noopener noreferrer">
@@ -28,7 +28,7 @@ class Release extends React.Component{
                     <h6 className="date">{this.state.release.date}</h6>
                     <ul className="tracklist">
                         {this.state.release.tracklist.map(track => {
-                            return (<li>{track.title}</li>)
+                            return (<li>{track.title}</li>);
                         })}
                     </ul>
                 </div>
