@@ -55,19 +55,4 @@ main {
             }
         }
     }
-    aside.others {
-        padding: 1rem;
-        vertical-align: top;
-        .others-title {
-            margin-bottom: 1rem;
-        }
-        .others-list {
-            .other {
-                margin-bottom: .8rem;
-                &:hover {
-                    opacity: .6;
-                }
-            }
-        }
-    }
 }

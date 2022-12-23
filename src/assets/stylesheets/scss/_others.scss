@@ -1,0 +1,25 @@
+main {
+    aside.others {
+        width: 25%;
+        vertical-align: top;
+        img {
+            width: 100%;
+        }
+        .others-txt {
+            padding: 1rem;
+            position: absolute;
+            bottom: 0;
+            .others-title {
+                margin-bottom: 1rem;
+            }
+            .others-list {
+                .other {
+                    margin-bottom: .8rem;
+                    &:hover {
+                        opacity: .6;
+                    }
+                }
+            }
+        }
+    }
+}

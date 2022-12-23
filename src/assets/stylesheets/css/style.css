@@ -93,7 +93,7 @@ body {
   display: table;
   background-color: #080808;
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1120px;
   border: #F4F4F4 solid 0.05rem;
 }
 
@@ -310,19 +310,6 @@ main section.releases .release:last-child .release-txt {
   padding: 1rem;
   vertical-align: top;
 }
-main aside.others {
-  padding: 1rem;
-  vertical-align: top;
-}
-main aside.others .others-title {
-  margin-bottom: 1rem;
-}
-main aside.others .others-list .other {
-  margin-bottom: 0.8rem;
-}
-main aside.others .others-list .other:hover {
-  opacity: 0.6;
-}
 
 footer {
   display: flex;
@@ -350,6 +337,28 @@ footer .rrss .rrss-list .rs:first-child {
   margin-left: 0;
 }
 
+main aside.others {
+  width: 25%;
+  vertical-align: top;
+}
+main aside.others img {
+  width: 100%;
+}
+main aside.others .others-txt {
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+}
+main aside.others .others-txt .others-title {
+  margin-bottom: 1rem;
+}
+main aside.others .others-txt .others-list .other {
+  margin-bottom: 0.8rem;
+}
+main aside.others .others-txt .others-list .other:hover {
+  opacity: 0.6;
+}
+
 @media (max-width: 968px) {
   header .section-1 p {
     width: 60%;
@@ -363,12 +372,16 @@ footer .rrss .rrss-list .rs:first-child {
   header .section-2 .contact {
     width: 50%;
   }
-  main .release {
-    width: 33.33%;
-  }
-  main .release.others {
+  main section.releases .release {
     width: 100%;
-    display: block;
+    display: inline-block;
+  }
+  main section.releases .release:last-child {
+    width: 100%;
+  }
+  main section.releases .release:last-child img,
+  main section.releases .release:last-child .release-txt {
+    width: 100%;
   }
 }
 @media (max-width: 776px) {
@@ -384,14 +397,28 @@ footer .rrss .rrss-list .rs:first-child {
   h4 {
     font-size: 1.2em;
   }
-  h5, h6, li {
+  h5,
+  h6,
+  li {
     font-size: 1em;
   }
-  p, label, span, a, li {
+  p,
+  label,
+  span,
+  a,
+  li {
     font-size: 0.9em;
   }
-  .main .release .release-txt .release-title {
+  main section.releases,
+  main aside.others {
+    width: 100%;
+    display: inline-block;
+  }
+  main section.releases .release .release-txt .release-title {
     line-height: 2rem;
+  }
+  main aside.others .others-txt {
+    bottom: auto;
   }
 }
 @media (max-width: 624px) {
@@ -407,11 +434,6 @@ footer .rrss .rrss-list .rs:first-child {
   header .section-1 p,
   header .section-2 p {
     width: 85%;
-  }
-  main .release {
-    display: block;
-    width: 100%;
-    border-right: 0;
   }
   footer {
     display: block;

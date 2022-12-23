@@ -1,109 +1,126 @@
-@media (max-width: 968px){
-    header{
-        .section-1{
-            p{
+@media (max-width: 968px) {
+    header {
+        .section-1 {
+            p {
                 width: 60%;
             }
-            .chip-pm-link{
+            .chip-pm-link {
                 width: 15%;
             }
         }
-        .section-2{
-            h2.releases-title{
+        .section-2 {
+            h2.releases-title {
                 width: 50%;
             }
-            .contact{
+            .contact {
                 width: 50%;
             }
         }
     }
-    main{
-        .release{
-            width: 33.33%;
-        }
-        .release.others{
-            width: 100%;
-            display: block;
-        }
-    }
-}
-
-@media (max-width: 776px){
-    h1{
-        font-size: 2.4em;
-    }
-    h2{
-        font-size: 2em;
-    }
-    h3{
-        font-size: 1.6em;
-    }
-    h4{
-        font-size: 1.2em;
-    }
-    h5, h6, li{
-        font-size: 1em; 
-    }
-    p,label,span,a,li{
-        font-size: .9em; 
-    }
-    .main{
-        .release{
-            .release-txt{
-                .release-title{
-                    line-height: 2rem;
+    main {
+        section.releases {
+            .release {
+                width: 100%;
+                display: inline-block;
+                &:last-child {
+                    width: 100%;
+                    img,
+                    .release-txt {
+                        width: 100%;
+                    }
                 }
             }
         }
     }
 }
 
-@media (max-width: 624px){
-    header{
+@media (max-width: 776px) {
+    h1 {
+        font-size: 2.4em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.6em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+    h5,
+    h6,
+    li {
+        font-size: 1em;
+    }
+    p,
+    label,
+    span,
+    a,
+    li {
+        font-size: .9em;
+    }
+    main {
+        section.releases,
+        aside.others {
+            width: 100%;
+            display: inline-block;
+        }
+        section.releases {
+            .release {
+                .release-txt {
+                    .release-title {
+                        line-height: 2rem;
+                    }
+                }
+            }
+        }
+        aside.others {
+            .others-txt {
+                bottom: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 624px) {
+    header {
         .section-1,
-        .section-2{
+        .section-2 {
             display: block;
-            h1{
+            h1 {
                 width: 100%;
                 border-bottom: $light-gray solid .05rem;
             }
-            p{
+            p {
                 width: 85%;
             }
         }
     }
-    main{
-        .release{
-            display: block;
-            width: 100%;
-            border-right: 0;
-        }
-    }
-    footer{
+    footer {
         display: block;
         .support,
-        .rrss{
+        .rrss {
             width: 100%;
             border-right: 0;
         }
-        .support{
+        .support {
             border-bottom: $light-gray solid .05rem;
         }
     }
 }
 
-@media (max-width: 440px){
-    header{
-        .section-1{
-            p{
+@media (max-width: 440px) {
+    header {
+        .section-1 {
+            p {
                 width: 75%;
             }
-            .chip-pm-link{
+            .chip-pm-link {
                 width: 25%;
             }
         }
-        .section-2{
-            .contact{
+        .section-2 {
+            .contact {
                 display: inline-block;
             }
         }
