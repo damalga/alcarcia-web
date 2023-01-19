@@ -167,12 +167,23 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-h1, h2, h3, h4, h5, h6,
-p, label, span, a, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+span,
+a,
+li {
   color: #F4F4F4;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "antoniobold";
 }
 
@@ -188,7 +199,9 @@ h3 {
   font-size: 2em;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   font-family: "antonioregular";
 }
 
@@ -196,13 +209,20 @@ h4 {
   font-size: 1.6em;
 }
 
-h5, h6, li {
+h5,
+h6,
+li {
   font-size: 1.2em;
 }
 
-p, label, span, a, li {
+p,
+label,
+span,
+a,
+li {
   font-family: "antoniolight";
   font-size: 1em;
+  line-height: 1.2em;
 }
 
 header .section-1,
@@ -262,7 +282,7 @@ main section.releases {
   width: 75%;
 }
 main section.releases .release {
-  width: 25%;
+  width: 26%;
   display: table-cell;
   border-right: #F4F4F4 solid 0.05rem;
   border-bottom: #F4F4F4 solid 0.05rem;
@@ -279,6 +299,7 @@ main section.releases .release .release-txt .release-title,
 main section.releases .release .release-txt .label,
 main section.releases .release .release-txt .date {
   margin-bottom: 1rem;
+  line-height: 1.2em;
 }
 main section.releases .release .release-txt .release-title {
   line-height: 2.4rem;
@@ -303,12 +324,20 @@ main section.releases .release:last-child .release-txt {
 }
 main section.releases .release:last-child img {
   width: 66.66%;
-  margin-bottom: 0;
+  border-bottom: 0;
+  margin-bottom: -0.4rem;
 }
 main section.releases .release:last-child .release-txt {
   width: 33.33%;
   padding: 1rem;
   vertical-align: top;
+}
+main .damalga {
+  padding: 2em;
+  border-top: #F4F4F4 solid 0.05rem;
+}
+main .damalga .damalga-container .damalga-txt {
+  text-align: right;
 }
 
 footer {
@@ -316,8 +345,12 @@ footer {
   border-TOP: #F4F4F4 solid 0.05rem;
 }
 footer .support,
+footer .contact,
+footer .rrss {
+  padding: 2rem;
+}
+footer .support,
 footer .contact {
-  padding: 1rem;
   display: inline-block;
 }
 footer .support {
@@ -326,7 +359,6 @@ footer .support {
 }
 footer .rrss {
   width: 50%;
-  padding: 1rem;
   text-align: right;
 }
 footer .rrss .rrss-list .rs {

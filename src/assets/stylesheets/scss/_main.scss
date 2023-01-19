@@ -6,7 +6,7 @@ main {
     section.releases {
         width: 75%;
         .release {
-            width: 25%;
+            width: 26%;
             display: table-cell;
             border-right: $light-gray solid .05rem;
             border-bottom: $light-gray solid .05rem;
@@ -21,6 +21,7 @@ main {
                 .label,
                 .date {
                     margin-bottom: 1rem;
+                    line-height: 1.2em;
                 }
                 .release-title {
                     line-height: 2.4rem;
@@ -45,13 +46,23 @@ main {
                 }
                 img {
                     width: 66.66%;
-                    margin-bottom: 0;
+                    border-bottom: 0;
+                    margin-bottom: -0.4rem;
                 }
                 .release-txt {
                     width: 33.33%;
                     padding: 1rem;
                     vertical-align: top;
                 }
+            }
+        }
+    }
+    .damalga {
+        padding: 2em;
+        border-top: #F4F4F4 solid 0.05rem;
+        .damalga-container {
+            .damalga-txt {
+                text-align: right;
             }
         }
     }

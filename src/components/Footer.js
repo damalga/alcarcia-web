@@ -6,7 +6,7 @@ class Footer extends React.Component{
     return (
       <footer>
           <section className="support">
-              <label>Pick ALCATAPE01 (Cassette) and support <a className="precious-plastic" href="https://preciousplastic.com/">Precious Plastic</a>.</label>
+              <label>Because of a recording system problem. Until the physical release of the ALCATAPE02, this record and the previous... ALCATAPE01 are free of charge in my bandcamp page.</label>
           </section>
           <section className="rrss">
             <ul className="rrss-list">
