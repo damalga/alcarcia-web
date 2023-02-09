@@ -31,6 +31,13 @@
                 }
             }
         }
+        aside.others {
+            >div {
+                .download-cover-letter {
+                    right: 5%;
+                }
+            }
+        }
     }
 }
 
@@ -75,8 +82,13 @@
             }
         }
         aside.others {
-            .others-txt {
-                bottom: auto;
+            >div {
+                .others-txt {
+                    bottom: auto;
+                }
+                .download-cover-letter {
+                    bottom: 25%;
+                }
             }
         }
     }

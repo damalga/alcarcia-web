@@ -2,21 +2,40 @@ main {
     aside.others {
         width: 25%;
         vertical-align: top;
-        img {
-            width: 100%;
-        }
-        .others-txt {
-            padding: 1rem;
-            position: absolute;
-            bottom: 0;
-            .others-title {
-                margin-bottom: 1rem;
+        >div {
+            position: relative;
+            .bg-other {
+                width: 100%;
             }
-            .others-list {
-                .other {
-                    margin-bottom: .8rem;
-                    &:hover {
-                        opacity: .6;
+            .others-txt {
+                padding: 1rem;
+                .others-title {
+                    margin-bottom: 1rem;
+                }
+                .others-list {
+                    .other {
+                        margin-bottom: .8rem;
+                        &:hover {
+                            opacity: .6;
+                        }
+                    }
+                }
+            }
+            .download-cover-letter {
+                position: absolute;
+                right: -5%;
+                bottom: -135%;
+                img {
+                    width: 150px;
+                    transition: all 0.5s ease;
+                    -webkit-animation: spin 8s infinite linear;
+                    @keyframes spin {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+                        100% {
+                            transform: rotate(360deg);
+                        }
                     }
                 }
             }
