@@ -1,51 +1,54 @@
-header{
+header {
     .section-1,
-    .section-2{
+    .section-2 {
         display: flex;
     }
-    .section-1{
+    .section-1 {
         border-bottom: $light-gray solid .05rem;
-        h1,p,.chip-pm-link{
+        h1,
+        p,
+        .chip-pm-link {
             display: inline-block;
         }
-        h1{
+        h1 {
             padding: 1rem;
             width: 25%;
-            border-right: $light-gray solid .05rem;;
+            border-right: $light-gray solid .05rem;
+            ;
         }
-        p{
+        p {
             width: 65%;
             padding: 1rem;
         }
-        .chip-pm-link{
+        .chip-pm-link {
             width: 10%;
             padding: 1rem;
             border-left: $light-gray solid .05rem;
             text-align: center;
-            img{
+            img {
                 width: 76%;
-                &:hover{
+                &:hover {
                     opacity: .6;
                 }
             }
         }
     }
-    .section-2{
+    .section-2 {
         width: 100%;
         border-bottom: $light-gray solid .05rem;
-        h2.releases-title, .rrss{
+        h2.releases-title,
+        .rrss {
             display: inline-block;
         }
-        h2.releases-title{
+        h2.releases-title {
             width: 75%;
             padding: 1rem;
             border-right: $light-gray solid .05rem;
         }
-        .contact{
+        .contact {
             width: 25%;
             padding: 1rem;
             text-align: right;
         }
     }
-
 }

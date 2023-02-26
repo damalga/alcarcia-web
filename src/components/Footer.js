@@ -6,7 +6,7 @@ class Footer extends React.Component{
     return (
       <footer>
           <section className="support">
-              <label>Because of a recording system problem. Until the physical release of the ALCATAPE02, this record and the previous... ALCATAPE01 are free of charge in my bandcamp page.</label>
+              <label>Because of a recording system problem, until the physical release of ALCATAPE02, digital downloads of ALCATAPE 01 & 02 are free of charge on my bandcamp.</label>
           </section>
           <section className="rrss">
             <ul className="rrss-list">
