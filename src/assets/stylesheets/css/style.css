@@ -232,7 +232,9 @@ header .section-2 {
 header .section-1 {
   border-bottom: #F4F4F4 solid 0.05rem;
 }
-header .section-1 h1, header .section-1 p, header .section-1 .chip-pm-link {
+header .section-1 h1,
+header .section-1 p,
+header .section-1 .chip-pm-link {
   display: inline-block;
 }
 header .section-1 h1 {
@@ -260,7 +262,8 @@ header .section-2 {
   width: 100%;
   border-bottom: #F4F4F4 solid 0.05rem;
 }
-header .section-2 h2.releases-title, header .section-2 .rrss {
+header .section-2 h2.releases-title,
+header .section-2 .rrss {
   display: inline-block;
 }
 header .section-2 h2.releases-title {
@@ -393,8 +396,8 @@ main aside.others > div .others-txt .others-list .other:hover {
 }
 main aside.others > div .download-cover-letter {
   position: absolute;
-  right: -5%;
-  bottom: -135%;
+  right: -6%;
+  bottom: -124%;
 }
 main aside.others > div .download-cover-letter img {
   width: 150px;

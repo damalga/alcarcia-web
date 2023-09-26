@@ -6,7 +6,9 @@ class Footer extends React.Component{
     return (
       <footer>
           <section className="support">
-              <label>Because of a recording system problem, until the physical release of ALCATAPE02, <br></br>digital downloads of ALCATAPE 01 & 02 are free of charge on my bandcamp.</label>
+              <label>Thanks for your contribution, it is currently paying for <a href='https://www.onearmy.earth/'>One Army</a> subscription...
+              <br></br>House of <a href='https://preciousplastic.com/'>Precious Plastic</a> across Patreon: <a href='https://www.patreon.com/one_army/about'>One Army Patreon</a>...
+              </label>
           </section>
           <section className="rrss">
             <ul className="rrss-list">
