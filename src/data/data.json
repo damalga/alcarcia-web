@@ -38,12 +38,12 @@
     },
     {
         "id": 3,
-        "linkRelease": "https://alcarcia.bandcamp.com/album/magia-a-la-luz-de-bajo-consumo",
+        "linkRelease": "https://alcatapes.bandcamp.com/album/magia-a-la-luz-de-bajo-consumo",
         "linkColor": "alca-yellow",
         "cover": "/cover3.jpg",
         "title": "Magia a la luz de bajo consumo",
-        "linkLabel": "https://alcarcia.bandcamp.com/music",
-        "label": "Self-release [ALCATAPES]",
+        "linkLabel": "https://alcatapes.bandcamp.com/music",
+        "label": "ALCATAPES",
         "cat": "ALCATAPE01 (Cassette & Digital)",
         "date": "2020",
         "tracklist": [
@@ -61,16 +61,30 @@
     },
     {
         "id": 4,
-        "linkRelease": "https://alcarcia.bandcamp.com/album/cualquier-parecido-con-la-coincidencia-es-mera-casualidad-alcatape02",
+        "linkRelease": "https://alcatapes.bandcamp.com/album/cualquier-parecido-con-la-coincidencia-es-mera-casualidad-alcatape02",
         "linkColor": "alca-yellow",
         "cover": "/cover4.jpg",
         "title": "Cualquier parecido con la coincidencia es mera casualidad",
-        "linkLabel": "https://alcarcia.bandcamp.com/music",
-        "label": "Self-release [ALCATAPES]",
+        "linkLabel": "https://alcatapes.bandcamp.com/music",
+        "label": "ALCATAPES",
         "cat": "ALCATAPE02 (Double Cassette & Digital)",
         "date": "2022",
         "tracklist": [
             { "title": "Various Artists Compilation" }
+        ]
+    },
+    {
+        "id": 5,
+        "linkRelease": "https://globoffcorp.bandcamp.com/album/pretensiones-varias-e-inequ-vocas-falacias",
+        "linkColor": "globof-green",
+        "cover": "/cover5.jpg",
+        "title": "Pretensiones varias e inequ​í​vocas falacias",
+        "linkLabel": "https://globoffcorp.bandcamp.com/music",
+        "label": "Global Offensive Corporation [G.O.C]",
+        "cat": "Tested Resources 003 (Digital)",
+        "date": "2024",
+        "tracklist": [
+            { "title": "Single piece divided in 5 tracks" }
         ]
     }
 ]

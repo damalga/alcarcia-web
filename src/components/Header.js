@@ -7,7 +7,7 @@ class Header extends React.Component{
       <header>
         <section className="section-1">
           <h1>Alcarcia</h1>
-          <p>Co-founder of <a href="https://polymorphismrecords.com" className="poly-red" target="_blank" rel="noopener noreferrer">Polymorphism Records</a>, currently based in Madrid.</p>
+          <p>Noise producer and Alcatapes owner. Co-founder of <a href="https://polymorphismrecords.com" className="poly-red" target="_blank" rel="noopener noreferrer">Polymorphism Records</a>, currently based in Madrid.</p>
           <a href="https://polymorphismrecords.com" className="chip-pm-link" target="_blank" rel="noopener noreferrer">
             <img src={process.env.PUBLIC_URL + '/img/chip-pm.png'} alt="Polymorphism Records - Microchip - Website"></img>
           </a>

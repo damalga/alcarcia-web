@@ -1,7 +1,7 @@
 import React from 'react';
-import Releases from './Releases';
 import Other from './Other';
-import Graphicdesign from './Graphicdesign';
+import Support from './Support';
+import Releases from './Releases';
 import './../assets/stylesheets/css/style.css';
 
 class Main extends React.Component{
@@ -24,10 +24,9 @@ class Main extends React.Component{
           <Other/>
         </aside>
 
-        <section className='damalga'>
-          <Graphicdesign/>
+        <section className='support'>
+          <Support/>
         </section>
-  
       </main>
     );
   }

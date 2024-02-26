@@ -1,23 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.36080ba4.chunk.css",
-    "main.js": "/static/js/main.d1f0ecca.chunk.js",
-    "main.js.map": "/static/js/main.d1f0ecca.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.31faeb47.js",
-    "runtime-main.js.map": "/static/js/runtime-main.31faeb47.js.map",
-    "static/js/2.cca45f16.chunk.js": "/static/js/2.cca45f16.chunk.js",
-    "static/js/2.cca45f16.chunk.js.map": "/static/js/2.cca45f16.chunk.js.map",
+    "main.css": "/static/css/main.510a7cd0.css",
+    "main.js": "/static/js/main.e58284ee.js",
+    "static/media/antonio-light-webfont.woff": "/static/media/antonio-light-webfont.7597af9956c6c6cf396d.woff",
+    "static/media/antonio-regular-webfont.woff": "/static/media/antonio-regular-webfont.0702b2fb8e3480c54c37.woff",
+    "static/media/antonio-bold-webfont.woff": "/static/media/antonio-bold-webfont.8825deafc76cab8d0cfb.woff",
+    "static/media/antonio-light-webfont.woff2": "/static/media/antonio-light-webfont.96350bc80d37632b370f.woff2",
+    "static/media/antonio-regular-webfont.woff2": "/static/media/antonio-regular-webfont.7aed20159d7088dab1da.woff2",
+    "static/media/antonio-bold-webfont.woff2": "/static/media/antonio-bold-webfont.b7c88c4a1b13769677f7.woff2",
     "index.html": "/index.html",
-    "precache-manifest.f990bffc8ad0f3d0416106e14e5c7867.js": "/precache-manifest.f990bffc8ad0f3d0416106e14e5c7867.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.36080ba4.chunk.css.map": "/static/css/main.36080ba4.chunk.css.map",
-    "static/js/2.cca45f16.chunk.js.LICENSE.txt": "/static/js/2.cca45f16.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/static/media/antonio-regular-webfont.f09bdddd.woff2"
+    "main.510a7cd0.css.map": "/static/css/main.510a7cd0.css.map",
+    "main.e58284ee.js.map": "/static/js/main.e58284ee.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.31faeb47.js",
-    "static/js/2.cca45f16.chunk.js",
-    "static/css/main.36080ba4.chunk.css",
-    "static/js/main.d1f0ecca.chunk.js"
+    "static/css/main.510a7cd0.css",
+    "static/js/main.e58284ee.js"
   ]
 }
