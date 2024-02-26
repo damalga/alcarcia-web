@@ -1,4 +1,5 @@
 footer {
+    width: 100%;
     display: flex;
     border-TOP: $light-gray solid .05rem;
     .support,
@@ -15,7 +16,7 @@ footer {
         border-right: $light-gray solid .05rem;
     }
     .rrss {
-        width: 50%;
+        width: 100%;
         text-align: right;
         .rrss-list {
             .rs {

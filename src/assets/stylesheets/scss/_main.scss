@@ -12,11 +12,10 @@ main {
             border-bottom: $light-gray solid .05rem;
             img {
                 width: 100%;
-                margin-bottom: .8rem;
                 border-bottom: $light-gray solid .05rem;
             }
             .release-txt {
-                padding: 0 1rem 1rem;
+                padding: 1rem;
                 .release-title,
                 .label,
                 .date {
@@ -36,7 +35,7 @@ main {
                     margin-bottom: .4rem;
                 }
             }
-            &:last-child {
+            &:nth-last-child(2) {
                 display: table;
                 width: 100%;
                 border-bottom: 0;
@@ -48,6 +47,7 @@ main {
                     width: 66.66%;
                     border-bottom: 0;
                     margin-bottom: -0.4rem;
+                    border-right: #F4F4F4 solid 0.05rem;
                 }
                 .release-txt {
                     width: 33.33%;
@@ -55,14 +55,35 @@ main {
                     vertical-align: top;
                 }
             }
+            &:nth-last-child(1){
+                width: 100%;
+                display: flex;
+                flex-direction: row-reverse;
+                img{
+                    width: 100%;
+                    margin-bottom: 0;
+                    border-left: $light-gray solid 0.05rem;
+                    display: block;
+                }
+                .release-txt {
+                    padding: 1rem;
+                    vertical-align: top;
+                }
+            }
         }
     }
-    .damalga {
-        padding: 2em;
-        border-top: #F4F4F4 solid 0.05rem;
-        .damalga-container {
-            .damalga-txt {
-                text-align: right;
+    .support {
+        padding: 1rem;
+        border-top: $light-gray solid 0.05rem;
+        border-bottom: $light-gray solid 0.05rem;
+        .support-container{
+            display: flex;
+            .thanks-container,
+            .damalga-container{
+                width: 50%;
+                .damalga-txt {
+                    text-align: right;
+                }
             }
         }
     }

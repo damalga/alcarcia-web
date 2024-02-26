@@ -19,11 +19,11 @@ header {
         p {
             width: 65%;
             padding: 1rem;
+            border-right: $light-gray solid .05rem;
         }
         .chip-pm-link {
             width: 10%;
             padding: 1rem;
-            border-left: $light-gray solid .05rem;
             text-align: center;
             img {
                 width: 76%;

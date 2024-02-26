@@ -4,12 +4,12 @@ $light-gray: #F4F4F4;
 
 $poly-red: #C81414;
 $alca-yellow: #F9EC03;
+$globof-green: #86996c;
 $alien-gray: #9E9E9E;
 
 $dg: #d8d8d8;
 $bc: #619AA9;
 $sc: #EC5405;
-$fb: #3B5998;
 $ig: #DD2A7B;
 
 $precious-plastic: #B7D8E5;
@@ -45,11 +45,6 @@ $precious-plastic: #B7D8E5;
 .sc{
     &:hover{
         color: $sc;
-    }
-}
-.fb{
-    &:hover{
-        color: $fb;
     }
 }
 .ig{

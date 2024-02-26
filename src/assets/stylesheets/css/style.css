@@ -77,10 +77,6 @@ table {
   color: #EC5405;
 }
 
-.fb:hover {
-  color: #3B5998;
-}
-
 .ig:hover {
   color: #DD2A7B;
 }
@@ -90,9 +86,10 @@ table {
 }
 
 body {
+  width: 96%;
   display: table;
-  background-color: #080808;
-  margin: 0 auto;
+  background-color: #121212;
+  margin: 16px auto;
   max-width: 1120px;
   border: #F4F4F4 solid 0.05rem;
 }
@@ -222,7 +219,7 @@ a,
 li {
   font-family: "antoniolight";
   font-size: 1em;
-  line-height: 1.2em;
+  line-height: normal;
 }
 
 header .section-1,
@@ -245,11 +242,11 @@ header .section-1 h1 {
 header .section-1 p {
   width: 65%;
   padding: 1rem;
+  border-right: #F4F4F4 solid 0.05rem;
 }
 header .section-1 .chip-pm-link {
   width: 10%;
   padding: 1rem;
-  border-left: #F4F4F4 solid 0.05rem;
   text-align: center;
 }
 header .section-1 .chip-pm-link img {
@@ -292,11 +289,10 @@ main section.releases .release {
 }
 main section.releases .release img {
   width: 100%;
-  margin-bottom: 0.8rem;
   border-bottom: #F4F4F4 solid 0.05rem;
 }
 main section.releases .release .release-txt {
-  padding: 0 1rem 1rem;
+  padding: 1rem;
 }
 main section.releases .release .release-txt .release-title,
 main section.releases .release .release-txt .label,
@@ -316,34 +312,60 @@ main section.releases .release .release-txt .tracklist,
 main section.releases .release .release-txt li {
   margin-bottom: 0.4rem;
 }
-main section.releases .release:last-child {
+main section.releases .release:nth-last-child(2) {
   display: table;
   width: 100%;
   border-bottom: 0;
 }
-main section.releases .release:last-child img,
-main section.releases .release:last-child .release-txt {
+main section.releases .release:nth-last-child(2) img,
+main section.releases .release:nth-last-child(2) .release-txt {
   display: inline-block;
 }
-main section.releases .release:last-child img {
+main section.releases .release:nth-last-child(2) img {
   width: 66.66%;
   border-bottom: 0;
   margin-bottom: -0.4rem;
+  border-right: #F4F4F4 solid 0.05rem;
 }
-main section.releases .release:last-child .release-txt {
+main section.releases .release:nth-last-child(2) .release-txt {
   width: 33.33%;
   padding: 1rem;
   vertical-align: top;
 }
-main .damalga {
-  padding: 2em;
-  border-top: #F4F4F4 solid 0.05rem;
+main section.releases .release:nth-last-child(1) {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
 }
-main .damalga .damalga-container .damalga-txt {
+main section.releases .release:nth-last-child(1) img {
+  width: 100%;
+  margin-bottom: 0;
+  border-left: #F4F4F4 solid 0.05rem;
+  display: block;
+}
+main section.releases .release:nth-last-child(1) .release-txt {
+  padding: 1rem;
+  vertical-align: top;
+}
+main .support {
+  padding: 1rem;
+  border-top: #F4F4F4 solid 0.05rem;
+  border-bottom: #F4F4F4 solid 0.05rem;
+}
+main .support .support-container {
+  display: flex;
+}
+main .support .support-container .thanks-container,
+main .support .support-container .damalga-container {
+  width: 50%;
+}
+main .support .support-container .thanks-container .damalga-txt,
+main .support .support-container .damalga-container .damalga-txt {
   text-align: right;
 }
 
 footer {
+  width: 100%;
   display: flex;
   border-TOP: #F4F4F4 solid 0.05rem;
 }
@@ -361,7 +383,7 @@ footer .support {
   border-right: #F4F4F4 solid 0.05rem;
 }
 footer .rrss {
-  width: 50%;
+  width: 100%;
   text-align: right;
 }
 footer .rrss .rrss-list .rs {
@@ -384,6 +406,7 @@ main aside.others > div .bg-other {
 }
 main aside.others > div .others-txt {
   padding: 1rem;
+  margin-bottom: 4rem;
 }
 main aside.others > div .others-txt .others-title {
   margin-bottom: 1rem;
@@ -395,9 +418,11 @@ main aside.others > div .others-txt .others-list .other:hover {
   opacity: 0.6;
 }
 main aside.others > div .download-cover-letter {
-  position: absolute;
-  right: -6%;
-  bottom: -124%;
+  position: sticky;
+  display: block;
+  text-align: right;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 main aside.others > div .download-cover-letter img {
   width: 150px;
@@ -416,6 +441,7 @@ main aside.others > div .download-cover-letter img {
 @media (max-width: 968px) {
   header .section-1 p {
     width: 60%;
+    padding: 0.6rem 1rem;
   }
   header .section-1 .chip-pm-link {
     width: 15%;
@@ -425,20 +451,18 @@ main aside.others > div .download-cover-letter img {
   }
   header .section-2 .contact {
     width: 50%;
+    padding: 0.6rem 1rem;
   }
   main section.releases .release {
     width: 100%;
     display: inline-block;
   }
-  main section.releases .release:last-child {
+  main section.releases .release:nth-last-child(2) img,
+  main section.releases .release:nth-last-child(2) .release-txt {
     width: 100%;
   }
-  main section.releases .release:last-child img,
-  main section.releases .release:last-child .release-txt {
-    width: 100%;
-  }
-  main aside.others > div .download-cover-letter {
-    right: 5%;
+  main section.releases .release:nth-last-child(1) {
+    flex-direction: column;
   }
 }
 @media (max-width: 776px) {
@@ -468,17 +492,34 @@ main aside.others > div .download-cover-letter img {
   }
   main section.releases,
   main aside.others {
+    border-top: #F4F4F4 solid 0.05rem;
     width: 100%;
     display: inline-block;
   }
   main section.releases .release .release-txt .release-title {
     line-height: 2rem;
   }
+  main section.releases:last-child .release {
+    flex-direction: column;
+  }
   main aside.others > div .others-txt {
     bottom: auto;
   }
-  main aside.others > div .download-cover-letter {
-    bottom: 25%;
+  main .support {
+    padding: 0;
+  }
+  main .support .support-container {
+    flex-direction: column;
+  }
+  main .support .support-container .thanks-container,
+  main .support .support-container .damalga-container {
+    width: 100%;
+    padding: 1rem;
+  }
+  main .support .support-container .thanks-container {
+    border-bottom: #F4F4F4 solid 0.05rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
   }
 }
 @media (max-width: 624px) {

@@ -1,7 +1,8 @@
 body {
+    width: 96%;
     display: table;
-    background-color: $dark-gray;
-    margin: 0 auto;
+    background-color: $mid-gray;
+    margin: 16px auto;
     max-width: 1120px;
     border: $light-gray solid .05rem;
 }

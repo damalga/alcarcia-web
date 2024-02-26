@@ -9,6 +9,7 @@ main {
             }
             .others-txt {
                 padding: 1rem;
+                margin-bottom: 4rem;
                 .others-title {
                     margin-bottom: 1rem;
                 }
@@ -22,9 +23,11 @@ main {
                 }
             }
             .download-cover-letter {
-                position: absolute;
-                right: -6%;
-                bottom: -124%;
+                position: sticky;
+                display: block;
+                text-align: right;
+                padding-right: 1rem;
+                padding-bottom: 1rem;
                 img {
                     width: 150px;
                     transition: all 0.5s ease;
