@@ -24,10 +24,18 @@
             .release {
                 width: 100%;
                 display: inline-block;
+                &:nth-last-child(2),
+                &:nth-last-child(1){
+                    display: block;
+                    width: 100%;
+                }
                 &:nth-last-child(2) {
                     img,
                     .release-txt {
                         width: 100%;
+                    }
+                    .release-txt {
+                        height: auto;
                     }
                 }
                 &:nth-last-child(1) {

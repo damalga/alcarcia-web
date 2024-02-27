@@ -4,6 +4,9 @@ class Others extends React.Component{
   render(){
     return (
         <div>
+          <a className='download-cover-letter' href="/img/cover-letter.pdf" target="_blank">
+            <img src={process.env.PUBLIC_URL + '/img/download-cover-letter.svg'} alt="Download Cover Letter"></img>
+          </a>
           <img className='bg-other' src={process.env.PUBLIC_URL + '/img/aside.png'} alt="Alcarcia Motor Bike"></img>
           <div className='others-txt'>
             <h4 className="others-title">OTHER TRACKS</h4>
@@ -15,9 +18,6 @@ class Others extends React.Component{
               <li className="other"><a href="https://curvigeneo.bandcamp.com/track/historia-de-espirituses" target="_blank" rel="noopener noreferrer">Historia de Espirituses</a></li>
             </ul>
           </div>
-          <a className='download-cover-letter' href="/img/cover-letter.pdf" target="_blank">
-            <img src={process.env.PUBLIC_URL + '/img/download-cover-letter.svg'} alt="Download Cover Letter"></img>
-          </a>
         </div>
     );
   }
