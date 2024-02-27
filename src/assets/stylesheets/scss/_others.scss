@@ -2,7 +2,6 @@ main {
     aside.others {
         width: 25%;
         vertical-align: top;
-        border-bottom: $light-gray solid 0.05rem;
         >div {
             position: relative;
             .bg-other {
@@ -10,7 +9,8 @@ main {
             }
             .others-txt {
                 padding: 1rem;
-                margin-top: 11rem;
+                margin-top: 10.5rem;
+                border-bottom: $light-gray solid 0.05rem;
                 .others-title {
                     margin-bottom: 1rem;
                 }

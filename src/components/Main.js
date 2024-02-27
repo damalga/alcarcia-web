@@ -1,5 +1,6 @@
 import React from 'react';
 import Other from './Other';
+import Images from './Images';
 import Support from './Support';
 import Releases from './Releases';
 import './../assets/stylesheets/css/style.css';

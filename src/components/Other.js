@@ -4,7 +4,7 @@ class Others extends React.Component{
   render(){
     return (
         <div>
-          <a className='download-cover-letter' href="/img/cover-letter.pdf" target="_blank">
+          <a className='download-cover-letter' href="/img/alcarcia-cover-letter.pdf" target="_blank">
             <img src={process.env.PUBLIC_URL + '/img/download-cover-letter.svg'} alt="Download Cover Letter"></img>
           </a>
           <img className='bg-other' src={process.env.PUBLIC_URL + '/img/aside.png'} alt="Alcarcia Motor Bike"></img>

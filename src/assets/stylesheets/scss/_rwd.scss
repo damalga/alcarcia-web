@@ -6,7 +6,8 @@
                 padding: .6rem 1rem;
             }
             .chip-pm-link {
-                width: 15%;
+                width: 20%;
+                vertical-align: bottom; 
             }
         }
         .section-2 {
@@ -16,6 +17,8 @@
             .contact {
                 width: 50%;
                 padding: .6rem 1rem;
+                display: inline-block;
+                vertical-align: bottom;
             }
         }
     }
@@ -28,14 +31,14 @@
                 &:nth-last-child(1){
                     display: block;
                     width: 100%;
+                    .release-txt {
+                        height: auto;
+                    }
                 }
                 &:nth-last-child(2) {
                     img,
                     .release-txt {
                         width: 100%;
-                    }
-                    .release-txt {
-                        height: auto;
                     }
                 }
                 &:nth-last-child(1) {
@@ -47,6 +50,9 @@
 }
 
 @media (max-width: 776px) {
+    body{
+        font-size: x-large;
+    }
     h1 {
         font-size: 2.4em;
     }
@@ -71,6 +77,13 @@
     li {
         font-size: .9em;
     }
+    header{
+        .section-1{
+            h1{
+                width: auto;
+            }
+        }
+    }
     main {
         section.releases,
         aside.others {
@@ -82,21 +95,18 @@
             .release {
                 .release-txt {
                     .release-title {
-                        line-height: 2rem;
+                        line-height: 2.8rem;
                     }
-                }
-                // fifht-release
-            }
-            &:last-child{
-                .release{
-                    flex-direction: column;
                 }
             }
         }
         aside.others {
             >div {
+                .download-cover-letter{
+                    top: 20rem;
+                }
                 .others-txt {
-                    bottom: auto;
+                    margin-top: 0;
                 }
             }
         }
@@ -111,7 +121,6 @@
                 }
                 .thanks-container{
                     border-bottom: $light-gray solid 0.05rem;
-                    margin-bottom: 1rem;
                     padding-bottom: 1rem;
                 }
             }
@@ -129,7 +138,7 @@
                 border-bottom: $light-gray solid .05rem;
             }
             p {
-                width: 85%;
+                width: 80%;
             }
         }
     }

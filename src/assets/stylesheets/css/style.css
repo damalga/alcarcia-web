@@ -282,7 +282,7 @@ main section.releases {
   width: 75%;
 }
 main section.releases .release {
-  width: 25%;
+  width: 27%;
   display: table-cell;
   border-right: #F4F4F4 solid 0.05rem;
   border-bottom: #F4F4F4 solid 0.05rem;
@@ -290,6 +290,7 @@ main section.releases .release {
 main section.releases .release img {
   width: 100%;
   border-bottom: #F4F4F4 solid 0.05rem;
+  vertical-align: top;
 }
 main section.releases .release .release-txt {
   padding: 1rem;
@@ -385,7 +386,6 @@ footer .rrss .rrss-list .rs:first-child {
 main aside.others {
   width: 25%;
   vertical-align: top;
-  border-bottom: #F4F4F4 solid 0.05rem;
 }
 main aside.others > div {
   position: relative;
@@ -395,7 +395,8 @@ main aside.others > div .bg-other {
 }
 main aside.others > div .others-txt {
   padding: 1rem;
-  margin-top: 11rem;
+  margin-top: 10.5rem;
+  border-bottom: #F4F4F4 solid 0.05rem;
 }
 main aside.others > div .others-txt .others-title {
   margin-bottom: 1rem;
@@ -426,13 +427,18 @@ main aside.others > div .download-cover-letter img {
   }
 }
 
+.section-3.images {
+  padding: 1rem;
+}
+
 @media (max-width: 968px) {
   header .section-1 p {
     width: 60%;
     padding: 0.6rem 1rem;
   }
   header .section-1 .chip-pm-link {
-    width: 15%;
+    width: 20%;
+    vertical-align: bottom;
   }
   header .section-2 h2.releases-title {
     width: 50%;
@@ -440,6 +446,8 @@ main aside.others > div .download-cover-letter img {
   header .section-2 .contact {
     width: 50%;
     padding: 0.6rem 1rem;
+    display: inline-block;
+    vertical-align: bottom;
   }
   main section.releases .release {
     width: 100%;
@@ -449,18 +457,21 @@ main aside.others > div .download-cover-letter img {
     display: block;
     width: 100%;
   }
+  main section.releases .release:nth-last-child(2) .release-txt, main section.releases .release:nth-last-child(1) .release-txt {
+    height: auto;
+  }
   main section.releases .release:nth-last-child(2) img,
   main section.releases .release:nth-last-child(2) .release-txt {
     width: 100%;
-  }
-  main section.releases .release:nth-last-child(2) .release-txt {
-    height: auto;
   }
   main section.releases .release:nth-last-child(1) {
     flex-direction: column;
   }
 }
 @media (max-width: 776px) {
+  body {
+    font-size: x-large;
+  }
   h1 {
     font-size: 2.4em;
   }
@@ -485,6 +496,9 @@ main aside.others > div .download-cover-letter img {
   li {
     font-size: 0.9em;
   }
+  header .section-1 h1 {
+    width: auto;
+  }
   main section.releases,
   main aside.others {
     border-top: #F4F4F4 solid 0.05rem;
@@ -492,13 +506,13 @@ main aside.others > div .download-cover-letter img {
     display: inline-block;
   }
   main section.releases .release .release-txt .release-title {
-    line-height: 2rem;
+    line-height: 2.8rem;
   }
-  main section.releases:last-child .release {
-    flex-direction: column;
+  main aside.others > div .download-cover-letter {
+    top: 20rem;
   }
   main aside.others > div .others-txt {
-    bottom: auto;
+    margin-top: 0;
   }
   main .support {
     padding: 0;
@@ -513,7 +527,6 @@ main aside.others > div .download-cover-letter img {
   }
   main .support .support-container .thanks-container {
     border-bottom: #F4F4F4 solid 0.05rem;
-    margin-bottom: 1rem;
     padding-bottom: 1rem;
   }
 }
@@ -529,7 +542,7 @@ main aside.others > div .download-cover-letter img {
   }
   header .section-1 p,
   header .section-2 p {
-    width: 85%;
+    width: 80%;
   }
   footer {
     display: block;
