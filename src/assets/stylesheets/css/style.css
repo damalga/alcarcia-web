@@ -282,7 +282,7 @@ main section.releases {
   width: 75%;
 }
 main section.releases .release {
-  width: 25%;
+  width: 27%;
   display: table-cell;
   border-right: #F4F4F4 solid 0.05rem;
   border-bottom: #F4F4F4 solid 0.05rem;
@@ -290,6 +290,7 @@ main section.releases .release {
 main section.releases .release img {
   width: 100%;
   border-bottom: #F4F4F4 solid 0.05rem;
+  vertical-align: top;
 }
 main section.releases .release .release-txt {
   padding: 1rem;
@@ -385,7 +386,6 @@ footer .rrss .rrss-list .rs:first-child {
 main aside.others {
   width: 25%;
   vertical-align: top;
-  border-bottom: #F4F4F4 solid 0.05rem;
 }
 main aside.others > div {
   position: relative;
@@ -395,7 +395,8 @@ main aside.others > div .bg-other {
 }
 main aside.others > div .others-txt {
   padding: 1rem;
-  margin-top: 11rem;
+  margin-top: 10.5rem;
+  border-bottom: #F4F4F4 solid 0.05rem;
 }
 main aside.others > div .others-txt .others-title {
   margin-bottom: 1rem;
@@ -424,6 +425,10 @@ main aside.others > div .download-cover-letter img {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.section-3.images {
+  padding: 1rem;
 }
 
 @media (max-width: 968px) {

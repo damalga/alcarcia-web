@@ -6,13 +6,14 @@ main {
     section.releases {
         width: 75%;
         .release {
-            width: 25%;
+            width: 27%;
             display: table-cell;
             border-right: $light-gray solid .05rem;
             border-bottom: $light-gray solid .05rem;
             img {
                 width: 100%;
                 border-bottom: $light-gray solid .05rem;
+                vertical-align: top;
             }
             .release-txt {
                 padding: 1rem;
