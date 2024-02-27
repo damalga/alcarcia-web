@@ -2,6 +2,7 @@ main {
     aside.others {
         width: 25%;
         vertical-align: top;
+        border-bottom: $light-gray solid 0.05rem;
         >div {
             position: relative;
             .bg-other {
@@ -9,7 +10,7 @@ main {
             }
             .others-txt {
                 padding: 1rem;
-                margin-bottom: 4rem;
+                margin-top: 11rem;
                 .others-title {
                     margin-bottom: 1rem;
                 }
@@ -23,12 +24,11 @@ main {
                 }
             }
             .download-cover-letter {
-                position: sticky;
-                display: block;
-                text-align: right;
-                padding-right: 1rem;
-                padding-bottom: 1rem;
+                position: absolute;
+                top: 12rem;
+                right: 1rem;
                 img {
+                    opacity: .84;
                     width: 150px;
                     transition: all 0.5s ease;
                     -webkit-animation: spin 8s infinite linear;
