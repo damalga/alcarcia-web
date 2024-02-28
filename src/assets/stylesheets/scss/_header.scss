@@ -14,17 +14,16 @@ header {
             padding: 1rem;
             width: 25%;
             border-right: $light-gray solid .05rem;
-            ;
         }
         p {
             width: 65%;
             padding: 1rem;
-            border-right: $light-gray solid .05rem;
         }
         .chip-pm-link {
             width: 10%;
-            padding: 1rem;
+            padding: 1.2rem 1rem;
             text-align: center;
+            border-left: $light-gray solid .05rem;
             img {
                 width: 76%;
                 &:hover {
