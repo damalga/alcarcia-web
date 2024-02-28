@@ -242,12 +242,12 @@ header .section-1 h1 {
 header .section-1 p {
   width: 65%;
   padding: 1rem;
-  border-right: #F4F4F4 solid 0.05rem;
 }
 header .section-1 .chip-pm-link {
   width: 10%;
-  padding: 1rem;
+  padding: 1.2rem 1rem;
   text-align: center;
+  border-left: #F4F4F4 solid 0.05rem;
 }
 header .section-1 .chip-pm-link img {
   width: 76%;
