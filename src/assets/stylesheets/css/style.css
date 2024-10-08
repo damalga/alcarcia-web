@@ -61,6 +61,10 @@ table {
   color: #F9EC03;
 }
 
+.glob-green:hover {
+  color: #86996c;
+}
+
 .alien-gray:hover {
   color: #9E9E9E;
 }

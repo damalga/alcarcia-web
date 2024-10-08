@@ -4,7 +4,7 @@ class Others extends React.Component{
   render(){
     return (
         <div>
-          <a className='download-cover-letter' href="/img/alcarcia-cover-letter.pdf" target="_blank">
+          <a className='download-cover-letter' href="/img/alcarcia-cover-letter.png" target="_blank">
             <img src={process.env.PUBLIC_URL + '/img/download-cover-letter.svg'} alt="Download Cover Letter"></img>
           </a>
           <img className='bg-other' src={process.env.PUBLIC_URL + '/img/aside.png'} alt="Alcarcia Motor Bike"></img>
@@ -15,7 +15,7 @@ class Others extends React.Component{
               <li className="other"><a href="https://unsolvedlabel.bandcamp.com/track/fluotexin-original-mix" target="_blank" rel="noopener noreferrer">Fluotexin</a></li>
               <li className="other"><a href="https://nawalrecords.bandcamp.com/track/all-about" target="_blank" rel="noopener noreferrer">All About</a></li>
               <li className="other"><a href="https://alcatapes.bandcamp.com/track/alcarcia-severe-disrepair" target="_blank" rel="noopener noreferrer">Severe Disrepair</a></li>
-              <li className="other"><a href="https://curvigeneo.bandcamp.com/track/historia-de-espirituses" target="_blank" rel="noopener noreferrer">Historia de Espirituses</a></li>
+              <li className="other"><a href="https://alcatapes.bandcamp.com/track/historia-de-espirituses" target="_blank" rel="noopener noreferrer">Historia de Espirituses</a></li>
             </ul>
           </div>
         </div>
