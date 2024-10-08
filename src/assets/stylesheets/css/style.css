@@ -61,6 +61,10 @@ table {
   color: #F9EC03;
 }
 
+.glob-green:hover {
+  color: #86996c;
+}
+
 .alien-gray:hover {
   color: #9E9E9E;
 }
@@ -242,12 +246,12 @@ header .section-1 h1 {
 header .section-1 p {
   width: 65%;
   padding: 1rem;
-  border-right: #F4F4F4 solid 0.05rem;
 }
 header .section-1 .chip-pm-link {
   width: 10%;
-  padding: 1rem;
+  padding: 1.2rem 1rem;
   text-align: center;
+  border-left: #F4F4F4 solid 0.05rem;
 }
 header .section-1 .chip-pm-link img {
   width: 76%;
@@ -282,7 +286,7 @@ main section.releases {
   width: 75%;
 }
 main section.releases .release {
-  width: 26%;
+  width: 27%;
   display: table-cell;
   border-right: #F4F4F4 solid 0.05rem;
   border-bottom: #F4F4F4 solid 0.05rem;
@@ -290,6 +294,7 @@ main section.releases .release {
 main section.releases .release img {
   width: 100%;
   border-bottom: #F4F4F4 solid 0.05rem;
+  vertical-align: top;
 }
 main section.releases .release .release-txt {
   padding: 1rem;
@@ -312,43 +317,28 @@ main section.releases .release .release-txt .tracklist,
 main section.releases .release .release-txt li {
   margin-bottom: 0.4rem;
 }
-main section.releases .release:nth-last-child(2) {
-  display: table;
-  width: 100%;
+main section.releases .release:nth-last-child(2), main section.releases .release:nth-last-child(1) {
+  display: inline-block;
+  width: 50%;
   border-bottom: 0;
 }
 main section.releases .release:nth-last-child(2) img,
-main section.releases .release:nth-last-child(2) .release-txt {
+main section.releases .release:nth-last-child(2) .release-txt, main section.releases .release:nth-last-child(1) img,
+main section.releases .release:nth-last-child(1) .release-txt {
   display: inline-block;
 }
-main section.releases .release:nth-last-child(2) img {
-  width: 66.66%;
+main section.releases .release:nth-last-child(2) img, main section.releases .release:nth-last-child(1) img {
   border-bottom: 0;
   margin-bottom: -0.4rem;
   border-right: #F4F4F4 solid 0.05rem;
 }
-main section.releases .release:nth-last-child(2) .release-txt {
-  width: 33.33%;
-  padding: 1rem;
-  vertical-align: top;
-}
-main section.releases .release:nth-last-child(1) {
+main section.releases .release:nth-last-child(2) .release-txt, main section.releases .release:nth-last-child(1) .release-txt {
+  height: 20rem;
   width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-}
-main section.releases .release:nth-last-child(1) img {
-  width: 100%;
-  margin-bottom: 0;
-  border-left: #F4F4F4 solid 0.05rem;
-  display: block;
-}
-main section.releases .release:nth-last-child(1) .release-txt {
   padding: 1rem;
   vertical-align: top;
 }
 main .support {
-  padding: 1rem;
   border-top: #F4F4F4 solid 0.05rem;
   border-bottom: #F4F4F4 solid 0.05rem;
 }
@@ -358,16 +348,19 @@ main .support .support-container {
 main .support .support-container .thanks-container,
 main .support .support-container .damalga-container {
   width: 50%;
+  padding: 1rem;
 }
 main .support .support-container .thanks-container .damalga-txt,
 main .support .support-container .damalga-container .damalga-txt {
   text-align: right;
 }
+main .support .support-container .thanks-container {
+  border-right: #F4F4F4 solid 0.05rem;
+}
 
 footer {
   width: 100%;
   display: flex;
-  border-TOP: #F4F4F4 solid 0.05rem;
 }
 footer .support,
 footer .contact,
@@ -406,7 +399,8 @@ main aside.others > div .bg-other {
 }
 main aside.others > div .others-txt {
   padding: 1rem;
-  margin-bottom: 4rem;
+  margin-top: 10.5rem;
+  border-bottom: #F4F4F4 solid 0.05rem;
 }
 main aside.others > div .others-txt .others-title {
   margin-bottom: 1rem;
@@ -418,13 +412,12 @@ main aside.others > div .others-txt .others-list .other:hover {
   opacity: 0.6;
 }
 main aside.others > div .download-cover-letter {
-  position: sticky;
-  display: block;
-  text-align: right;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+  position: absolute;
+  top: 12rem;
+  right: 1rem;
 }
 main aside.others > div .download-cover-letter img {
+  opacity: 0.84;
   width: 150px;
   transition: all 0.5s ease;
   -webkit-animation: spin 8s infinite linear;
@@ -438,13 +431,18 @@ main aside.others > div .download-cover-letter img {
   }
 }
 
+.section-3.images {
+  padding: 1rem;
+}
+
 @media (max-width: 968px) {
   header .section-1 p {
     width: 60%;
     padding: 0.6rem 1rem;
   }
   header .section-1 .chip-pm-link {
-    width: 15%;
+    width: 20%;
+    vertical-align: bottom;
   }
   header .section-2 h2.releases-title {
     width: 50%;
@@ -452,10 +450,19 @@ main aside.others > div .download-cover-letter img {
   header .section-2 .contact {
     width: 50%;
     padding: 0.6rem 1rem;
+    display: inline-block;
+    vertical-align: bottom;
   }
   main section.releases .release {
     width: 100%;
     display: inline-block;
+  }
+  main section.releases .release:nth-last-child(2), main section.releases .release:nth-last-child(1) {
+    display: block;
+    width: 100%;
+  }
+  main section.releases .release:nth-last-child(2) .release-txt, main section.releases .release:nth-last-child(1) .release-txt {
+    height: auto;
   }
   main section.releases .release:nth-last-child(2) img,
   main section.releases .release:nth-last-child(2) .release-txt {
@@ -466,6 +473,9 @@ main aside.others > div .download-cover-letter img {
   }
 }
 @media (max-width: 776px) {
+  body {
+    font-size: larger;
+  }
   h1 {
     font-size: 2.4em;
   }
@@ -490,6 +500,9 @@ main aside.others > div .download-cover-letter img {
   li {
     font-size: 0.9em;
   }
+  header .section-1 h1 {
+    width: auto;
+  }
   main section.releases,
   main aside.others {
     border-top: #F4F4F4 solid 0.05rem;
@@ -497,13 +510,13 @@ main aside.others > div .download-cover-letter img {
     display: inline-block;
   }
   main section.releases .release .release-txt .release-title {
-    line-height: 2rem;
+    line-height: 2.8rem;
   }
-  main section.releases:last-child .release {
-    flex-direction: column;
+  main aside.others > div .download-cover-letter {
+    top: 20rem;
   }
   main aside.others > div .others-txt {
-    bottom: auto;
+    margin-top: 0;
   }
   main .support {
     padding: 0;
@@ -518,7 +531,6 @@ main aside.others > div .download-cover-letter img {
   }
   main .support .support-container .thanks-container {
     border-bottom: #F4F4F4 solid 0.05rem;
-    margin-bottom: 1rem;
     padding-bottom: 1rem;
   }
 }
@@ -534,7 +546,7 @@ main aside.others > div .download-cover-letter img {
   }
   header .section-1 p,
   header .section-2 p {
-    width: 85%;
+    width: 80%;
   }
   footer {
     display: block;

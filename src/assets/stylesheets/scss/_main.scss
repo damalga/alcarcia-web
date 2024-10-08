@@ -6,13 +6,14 @@ main {
     section.releases {
         width: 75%;
         .release {
-            width: 26%;
+            width: 27%;
             display: table-cell;
             border-right: $light-gray solid .05rem;
             border-bottom: $light-gray solid .05rem;
             img {
                 width: 100%;
                 border-bottom: $light-gray solid .05rem;
+                vertical-align: top;
             }
             .release-txt {
                 padding: 1rem;
@@ -35,37 +36,23 @@ main {
                     margin-bottom: .4rem;
                 }
             }
-            &:nth-last-child(2) {
-                display: table;
-                width: 100%;
+            &:nth-last-child(2),
+            &:nth-last-child(1){
+                display: inline-block;
+                width: 50%;
                 border-bottom: 0;
                 img,
                 .release-txt {
                     display: inline-block;
                 }
                 img {
-                    width: 66.66%;
                     border-bottom: 0;
                     margin-bottom: -0.4rem;
-                    border-right: #F4F4F4 solid 0.05rem;
+                    border-right: $light-gray solid 0.05rem;
                 }
                 .release-txt {
-                    width: 33.33%;
-                    padding: 1rem;
-                    vertical-align: top;
-                }
-            }
-            &:nth-last-child(1){
-                width: 100%;
-                display: flex;
-                flex-direction: row-reverse;
-                img{
+                    height: 20rem;
                     width: 100%;
-                    margin-bottom: 0;
-                    border-left: $light-gray solid 0.05rem;
-                    display: block;
-                }
-                .release-txt {
                     padding: 1rem;
                     vertical-align: top;
                 }
@@ -73,7 +60,6 @@ main {
         }
     }
     .support {
-        padding: 1rem;
         border-top: $light-gray solid 0.05rem;
         border-bottom: $light-gray solid 0.05rem;
         .support-container{
@@ -81,9 +67,13 @@ main {
             .thanks-container,
             .damalga-container{
                 width: 50%;
+                padding: 1rem;
                 .damalga-txt {
                     text-align: right;
                 }
+            }
+            .thanks-container{
+                border-right: $light-gray solid 0.05rem;
             }
         }
     }

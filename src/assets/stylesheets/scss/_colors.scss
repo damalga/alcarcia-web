@@ -4,7 +4,7 @@ $light-gray: #F4F4F4;
 
 $poly-red: #C81414;
 $alca-yellow: #F9EC03;
-$globof-green: #86996c;
+$glob-green: #86996c;
 $alien-gray: #9E9E9E;
 
 $dg: #d8d8d8;
@@ -23,6 +23,11 @@ $precious-plastic: #B7D8E5;
 .alca-yellow{
     &:hover{
         color: $alca-yellow;
+    }
+}
+.glob-green{
+    &:hover{
+        color: $glob-green;
     }
 }
 .alien-gray{
