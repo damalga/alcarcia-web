@@ -15,7 +15,6 @@ class Others extends React.Component{
               <li className="other"><a href="https://unsolvedlabel.bandcamp.com/track/fluotexin-original-mix" target="_blank" rel="noopener noreferrer">Fluotexin</a></li>
               <li className="other"><a href="https://nawalrecords.bandcamp.com/track/all-about" target="_blank" rel="noopener noreferrer">All About</a></li>
               <li className="other"><a href="https://alcatapes.bandcamp.com/track/alcarcia-severe-disrepair" target="_blank" rel="noopener noreferrer">Severe Disrepair</a></li>
-              <li className="other"><a href="https://alcatapes.bandcamp.com/track/historia-de-espirituses" target="_blank" rel="noopener noreferrer">Historia de Espirituses</a></li>
             </ul>
           </div>
         </div>
