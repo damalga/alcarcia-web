@@ -1,0 +1,96 @@
+@use 'colors' as *;
+
+main {
+    section.releases,
+    aside.others {
+        display: inline-block;
+    }
+    section.releases {
+        width: 75%;
+        .release {
+            width: 27%;
+            display: table-cell;
+            border-right: $light-gray solid .05rem;
+            border-bottom: $light-gray solid .05rem;
+            img {
+                width: 100%;
+                border-bottom: $light-gray solid .05rem;
+                vertical-align: top;
+            }
+            .release-txt {
+                padding: 1rem;
+                .release-title,
+                .label,
+                .date {
+                    margin-bottom: 1rem;
+                    line-height: 1.24em;
+                }
+                .release-title {
+                    line-height: 1.36em;
+                }
+                .cat,
+                .date {
+                    text-align: right;
+                }
+                .cat,
+                .tracklist,
+                li {
+                    margin-bottom: .4rem;
+                    line-height: 1.2em;
+                }
+            }
+            &:nth-last-child(2),
+            &:nth-last-child(1){
+                display: inline-block;
+                width: 50%;
+                border-bottom: 0;
+                img,
+                .release-txt {
+                    display: inline-block;
+                }
+                img {
+                    border-bottom: 0;
+                    margin-bottom: -0.4rem;
+                    border-right: $light-gray solid 0.05rem;
+                }
+                .release-txt {
+                    height: 20rem;
+                    width: 100%;
+                    padding: 1rem;
+                    vertical-align: top;
+                }
+            }
+        }
+    }
+
+    .support {
+        border-top: $light-gray solid 0.05rem;
+        border-bottom: $light-gray solid 0.05rem;
+        .support-container{
+            display: flex;
+            .thanks-container,
+            .damalga-container{
+                width: 50%;
+                padding: 1rem;
+                .damalga-txt {
+                    text-align: right;
+                }
+            }
+            .damalga-container{
+                .damalga-txt {
+                    p{
+                        line-height: 1.2em;
+                    }
+                }
+            }
+            .thanks-container{
+                border-right: $light-gray solid 0.05rem;
+                .thanks-txt{
+                    p{
+                        line-height: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+}

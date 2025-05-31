@@ -2,7 +2,7 @@
         "id": 1,
         "linkRelease": "https://illegalalienrecords.bandcamp.com/album/bossob-ep",
         "linkColor": "alien-gray",
-        "cover": "/cover1.jpg",
+        "cover": "cover1.jpg",
         "title": "BoSsOb",
         "linkLabel": "https://illegalalienrecords.bandcamp.com",
         "label": "Illegal Alien Records",
@@ -19,7 +19,7 @@
         "id": 2,
         "linkRelease": "https://polymorphism.bandcamp.com/album/leafy-plains-of-incoherence-between-shadows-until-dawn-pm001",
         "linkColor": "poly-red",
-        "cover": "/cover2.jpg",
+        "cover": "cover2.jpg",
         "title": "Leafy plains of incoherence between shadows until dawn",
         "linkLabel": "https://polymorphism.bandcamp.com",
         "label": "Polymorphism Records",
@@ -40,7 +40,7 @@
         "id": 3,
         "linkRelease": "https://alcatapes.bandcamp.com/album/magia-a-la-luz-de-bajo-consumo",
         "linkColor": "alca-yellow",
-        "cover": "/cover3.jpg",
+        "cover": "cover3.jpg",
         "title": "Magia a la luz de bajo consumo",
         "linkLabel": "https://alcatapes.bandcamp.com/music",
         "label": "ALCATAPES",
@@ -63,7 +63,7 @@
         "id": 4,
         "linkRelease": "https://alcatapes.bandcamp.com/album/cualquier-parecido-con-la-coincidencia-es-mera-casualidad-alcatape02",
         "linkColor": "alca-yellow",
-        "cover": "/cover4.jpg",
+        "cover": "cover4.jpg",
         "title": "Cualquier parecido con la coincidencia es mera casualidad",
         "linkLabel": "https://alcatapes.bandcamp.com/music",
         "label": "ALCATAPES",
@@ -77,14 +77,14 @@
         "id": 5,
         "linkRelease": "https://globoffcorp.bandcamp.com/album/pretensiones-varias-e-inequ-vocas-falacias",
         "linkColor": "glob-green",
-        "cover": "/cover5.jpg",
-        "title": "Pretensiones varias e inequ​í​vocas falacias",
+        "cover": "cover5.jpg",
+        "title": "Mambo Caníbal - Pretensiones varias e inequívocas falacias",
         "linkLabel": "https://globoffcorp.bandcamp.com/music",
         "label": "Global Offensive Corporation [G.O.C]",
         "cat": "Tested Resources 003 (Digital)",
         "date": "2024",
         "tracklist": [
-            { "title": "Single piece divided in 5 tracks" }
+            { "title": "Single piece divided in 5 tracks with my friend Aware" }
         ]
     }
 ]
