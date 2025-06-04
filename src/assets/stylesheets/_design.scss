@@ -1,0 +1,36 @@
+@use 'colors' as *;
+
+.design {
+    border-top: $light-gray solid 0.05rem;
+    border-bottom: $light-gray solid 0.05rem;
+    .design-container{
+        display: flex;
+        .section-1,
+        .section-2{
+            padding: 1rem;
+            .damalga-txt {
+                text-align: right;
+            }
+        }
+        .section-1{
+            width: 75%;
+            border-right: $light-gray solid 0.05rem;
+            h2.images-title {
+            }
+        }
+        .section-2{
+            background-color: $light-gray;
+            width: 25%;
+            .damalga-txt{
+                p,h3 a{
+                    color: $mid-gray;
+                    font-weight: 700;
+                    letter-spacing: .02em;
+                }
+                p{
+                    line-height: 1.4em;
+                }
+            }
+        }
+    }
+}

@@ -9,7 +9,7 @@ class Footer extends React.Component{
               <li className="rs"><a className="bc" href="https://alcatapes.bandcamp.com/" target="_blank" rel="noopener noreferrer">Bandcamp</a></li>
               <li className="rs"><a className="sc" href="https://soundcloud.com/alcarcia" target="_blank" rel="noopener noreferrer">Soundcloud</a></li>
               <li className="rs"><a className="dg" href="https://www.discogs.com/artist/6426813-Alcarcia" target="_blank" rel="noopener noreferrer">Discogs</a></li>
-              <li className="rs"><a className="ig" href="https://www.instagram.com/alcarcia/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li className="rs"><a className="ig" href="https://www.instagram.com/alcarciandamalga/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
             </ul>
           </section>
       </footer>
