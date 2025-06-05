@@ -21,7 +21,6 @@ export default function SimpleCarousel() {
         <img
           src={images[current].src}
           alt={images[current].alt}
-          style={{ width: "100%", height: "auto", display: "block" }}
         />
       </div>
       {/* ALT / descripción */}

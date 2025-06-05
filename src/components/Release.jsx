@@ -1,21 +1,5 @@
 import React from 'react';
 
-import cover1 from '../assets/img/cover1.jpg';
-import cover2 from '../assets/img/cover2.jpg';
-import cover3 from '../assets/img/cover3.jpg';
-import cover4 from '../assets/img/cover4.jpg';
-import cover5 from '../assets/img/cover5.jpg';
-import cover6 from '../assets/img/cover6.jpg';
-
-const covers = {
-  'cover1.jpg': cover1,
-  'cover2.jpg': cover2,
-  'cover3.jpg': cover3,
-  'cover4.jpg': cover4,
-  'cover5.jpg': cover5,
-  'cover6.jpg': cover6,
-};
-
 class Release extends React.Component{
 
    constructor(props) {
@@ -29,7 +13,7 @@ class Release extends React.Component{
         return (
             <div className="release">
                 <a href={this.state.release.linkRelease} target="_blank" rel="noopener noreferrer">
-                    <img src={covers[this.state.release.cover]} alt="cover"></img>
+                    <img src={this.state.release.cover} alt="cover"></img>
                 </a>
                 <div className="release-txt">
                     <a href={this.state.release.linkRelease} className={this.state.release.linkColor} target="_blank" rel="noopener noreferrer">

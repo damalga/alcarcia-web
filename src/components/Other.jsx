@@ -1,17 +1,13 @@
 import React from 'react';
 
-import asideImg from '../assets/img/aside.png';
-import downloadCoverLetter from '../assets/img/download-cover-letter.svg';
-import coverLetter from '../assets/img/alcarcia-cover-letter.png';
-
 class Others extends React.Component{
   render(){
     return (
       <div className='other-tracks'>
-        <a className='download-cover-letter' href={coverLetter} target="_blank">
-          <img src={downloadCoverLetter} alt="Download Cover Letter"></img>
+        <a className='download-cover-letter' href="/img/alcarcia-cover-letter.png" target="_blank">
+          <img src="/img/download-cover-letter.svg" alt="Download Cover Letter"></img>
         </a>
-        <img src={asideImg} className='bg-other' alt="Alcarcia with his old Derbi Terra at home playing one record"></img>
+        <img src="/img/aside.png" className='bg-other' alt="Alcarcia with his old Derbi Terra at home playing one record"></img>
         <div className='other-tracks-txt'>
           <h4 className="other-tracks-title">Other tracks</h4>
           <ul className="other-tracks-list">

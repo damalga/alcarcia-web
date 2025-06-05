@@ -71,6 +71,10 @@ aside.others {
         }
         .main-image {
             border-top: .04rem solid $light-gray;
+            img{
+                width: 100%;
+                display: block;
+            }
         }
         .alt-text {
             font-family: "antoniobold";

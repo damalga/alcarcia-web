@@ -1,7 +1,5 @@
 import React from 'react';
 
-import chipImg from '../assets/img/chip-pm.png';
-
 class Header extends React.Component{
   render(){
     return (
@@ -10,7 +8,7 @@ class Header extends React.Component{
           <h1>Alcarcia</h1>
           <p>Spaniard music producer and Co-founder of <a href="https://polymorphismrecords.com" className="poly-red" target="_blank" rel="noopener noreferrer">Polymorphism Records</a>.</p>
           <a href="https://polymorphismrecords.com" className="chip-pm-link" target="_blank" rel="noopener noreferrer">
-            <img src={chipImg} alt="Polymorphism Records - Microchip - Website"></img>
+            <img src="/img/chip-pm.png" alt="Polymorphism Records - Microchip - Website"></img>
           </a>
         </section>
         <section className="section-2">
