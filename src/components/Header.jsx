@@ -16,7 +16,7 @@ class Header extends React.Component{
         <section className="section-2">
           <h2 className="releases-title">Releases</h2>
           <label className="contact">For any enquiry:
-            <a href="mailto:alcarcia@protonmail.com" className="alca-yellow"> alcarcia@protonmail.com</a>
+            <a href="mailto:alcarcia@protonmail.com" className="alca-yellow">alcarcia@protonmail.com</a>
           </label>
         </section>
       </header>

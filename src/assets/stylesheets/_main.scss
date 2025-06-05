@@ -10,11 +10,11 @@ main {
         .release {
             width: 27%;
             display: table-cell;
-            border-right: $light-gray solid .05rem;
-            border-bottom: $light-gray solid .05rem;
+            border-right: .04rem solid $light-gray;
+            border-bottom: .04rem solid $light-gray;
             img {
                 width: 100%;
-                border-bottom: $light-gray solid .05rem;
+                border-right: .04rem solid $light-gray;
                 vertical-align: top;
             }
             .release-txt {
@@ -23,10 +23,9 @@ main {
                 .label,
                 .date {
                     margin-bottom: 1rem;
-                    line-height: 1.24em;
                 }
                 .release-title {
-                    line-height: 1.36em;
+                    line-height: 1.4em;
                 }
                 .cat,
                 .date {
@@ -36,14 +35,12 @@ main {
                 .tracklist,
                 li {
                     margin-bottom: .4rem;
-                    line-height: 1.2em;
                 }
             }
-            &:nth-last-child(2),
-            &:nth-last-child(1){
+            &:nth-last-child(3),
+            &:nth-last-child(2){
                 display: inline-block;
                 width: 50%;
-                border-bottom: 0;
                 img,
                 .release-txt {
                     display: inline-block;
@@ -51,13 +48,26 @@ main {
                 img {
                     border-bottom: 0;
                     margin-bottom: -0.4rem;
-                    border-right: $light-gray solid 0.05rem;
+                    border-right: .04rem solid $light-gray;
                 }
                 .release-txt {
                     height: 20rem;
                     width: 100%;
                     padding: 1rem;
                     vertical-align: top;
+                }
+            }
+            &:nth-last-child(1){
+                display: inline-block;
+                width: 100%;
+                img,
+                .release-txt {
+                    width: 50%;
+                    display: inline-block;
+                }
+                img{
+                    border: 0;
+                    border-right: .04rem solid $light-gray;
                 }
             }
         }

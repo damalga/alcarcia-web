@@ -2,7 +2,7 @@ import React from 'react';
 import Other from './Other';
 import Design from './Design';
 import Releases from './Releases';
-import LastRelease from './LastRelease';
+import Images from './Images';
 
 import data from '../data/data.json';
 
@@ -24,7 +24,7 @@ class Main extends React.Component{
 
         <aside className='others'>
           <Other/>
-          <LastRelease/>
+          <Images/>
         </aside>
 
         <section className='design'>

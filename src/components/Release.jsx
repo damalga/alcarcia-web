@@ -5,6 +5,7 @@ import cover2 from '../assets/img/cover2.jpg';
 import cover3 from '../assets/img/cover3.jpg';
 import cover4 from '../assets/img/cover4.jpg';
 import cover5 from '../assets/img/cover5.jpg';
+import cover6 from '../assets/img/cover6.jpg';
 
 const covers = {
   'cover1.jpg': cover1,
@@ -12,6 +13,7 @@ const covers = {
   'cover3.jpg': cover3,
   'cover4.jpg': cover4,
   'cover5.jpg': cover5,
+  'cover6.jpg': cover6,
 };
 
 class Release extends React.Component{

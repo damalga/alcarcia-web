@@ -4,7 +4,7 @@ import Release from "./Release";
 
 class Releases extends React.Component {
   render() {
-    return data.slice(0, 5).map((release) => {
+    return data.map((release) => {
       return <Release key={release.id} release={release} />;
     });
   }

@@ -1,11 +1,9 @@
 @use 'colors' as *;
 
 body {
-    width: 96%;
-    display: table;
     background-color: $mid-gray;
     margin: 16px auto;
-    max-width: 1120px;
+    max-width: 1200px;
     border: $light-gray solid .05rem;
 }
 
@@ -17,7 +15,7 @@ body {
     bottom: -50%;
     width: 200%;
     height: 200vh;
-    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background: transparent url('../img/noise-transparent.png') repeat 0 0;
     background-repeat: repeat;
     animation: bg-animation .2s infinite;
     opacity: .8;

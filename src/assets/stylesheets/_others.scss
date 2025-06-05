@@ -1,48 +1,85 @@
-@use 'colors' as *;
+@use "colors" as *;
 
-main {
-    aside.others {
-        width: 25%;
-        vertical-align: top;
-        >div {
-            position: relative;
-            .bg-other {
-                width: 100%;
+aside.others {
+    width: 25%;
+    vertical-align: top;
+    .download-cover-letter {
+        position: absolute;
+        top: 12.8rem;
+        right: 1rem;
+        img {
+            opacity: 0.84;
+            width: 150px;
+            transition: all 0.5s ease;
+            -webkit-animation: spin 8s infinite linear;
+            @keyframes spin {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
             }
-            .others-txt {
+        }
+    }
+    > div {
+        position: relative;
+        .bg-other {
+            width: 100%;
+        }
+    }
+    /*Other-tracks*/
+    .other-tracks {
+        .other-tracks-txt {
+            border-bottom: $light-gray solid 0.05rem;
+            .other-tracks-title {
                 padding: 1rem;
-                border-bottom: $light-gray solid 0.05rem;
-                .others-title {
-                    margin-bottom: 1rem;
-                }
-                .others-list {
-                    .other {
-                        margin-bottom: .8rem;
-                        &:hover {
-                            opacity: .6;
-                        }
+                border-top: .04rem solid $light-gray;
+                border-bottom: .04rem solid $light-gray;
+            }
+            .other-tracks-list {
+                padding: 1rem;
+                .other-track {
+                    margin-bottom: 0.8rem;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    &:hover {
+                        opacity: 0.6;
                     }
                 }
             }
-            .download-cover-letter {
-                position: absolute;
-                top: 8rem;
-                right: 1rem;
-                img {
-                    opacity: .84;
-                    width: 150px;
-                    transition: all 0.5s ease;
-                    -webkit-animation: spin 8s infinite linear;
-                    @keyframes spin {
-                        0% {
-                            transform: rotate(0deg);
-                        }
-                        100% {
-                            transform: rotate(360deg);
-                        }
-                    }
+        }
+    }
+    /*Images*/
+    .images-carousel {
+        h4.images-title {
+            padding: 1rem;
+            border-bottom: .04rem solid $light-gray;
+        }
+        .controls {
+            button {
+                background-color: transparent;
+                width: 50%;
+                padding: .6rem;
+                color: $light-gray;
+                border: none;
+                &.prev {
+                    border-right: .04rem solid $light-gray;
                 }
             }
+        }
+        .main-image {
+            border-top: .04rem solid $light-gray;
+        }
+        .alt-text {
+            font-family: "antoniobold";
+            text-align: center;
+            line-height: 1rem;
+            letter-spacing: 0.02em;
+            background: $light-gray;
+            padding: 0.6rem 0.4rem 0.4rem.4rem;
+            font-size: 0.8rem;
         }
     }
 }
