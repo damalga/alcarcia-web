@@ -12,8 +12,6 @@ $bc: #619AA9;
 $sc: #EC5405;
 $ig: #DD2A7B;
 
-$precious-plastic: #B7D8E5;
-
 //RELEASES
 .poly-red{
     &:hover{
@@ -55,12 +53,5 @@ $precious-plastic: #B7D8E5;
 .ig{
     &:hover{
         color: $ig;
-    }
-}
-
-//OTHERS
-.precious-plastic{
-    &:hover{
-        color: $precious-plastic;
     }
 }

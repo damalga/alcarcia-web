@@ -1,90 +1,109 @@
-[{
-        "id": 1,
-        "linkRelease": "https://illegalalienrecords.bandcamp.com/album/bossob-ep",
-        "linkColor": "alien-gray",
-        "cover": "cover1.jpg",
-        "title": "BoSsOb",
-        "linkLabel": "https://illegalalienrecords.bandcamp.com",
-        "label": "Illegal Alien Records",
-        "cat": "IAR213 (Digital)",
-        "date": "2018",
-        "tracklist": [
-            { "title": "01. BoS" },
-            { "title": "02. sOb" },
-            { "title": "03. BoS (Corvum Hypnotic Version)" },
-            { "title": "04. sOb (A Thousand Details Remix)" }
-        ]
-    },
-    {
-        "id": 2,
-        "linkRelease": "https://polymorphism.bandcamp.com/album/leafy-plains-of-incoherence-between-shadows-until-dawn-pm001",
-        "linkColor": "poly-red",
-        "cover": "cover2.jpg",
-        "title": "Leafy plains of incoherence between shadows until dawn",
-        "linkLabel": "https://polymorphism.bandcamp.com",
-        "label": "Polymorphism Records",
-        "cat": "PM001 (Vinyl & Digital)",
-        "date": "2019",
-        "tracklist": [
-            { "title": "01. Plain 1" },
-            { "title": "02. Plain 2" },
-            { "title": "03. Plain 3" },
-            { "title": "04. Plain 4" },
-            { "title": "05. Plain 1 (Hector MAD remix)" },
-            { "title": "06. Plain 2 (Solarmental remix)" },
-            { "title": "07. Plain 3 (Neri J MAD remix)" },
-            { "title": "08. Plain 4 (JLTZ remix)" }
-        ]
-    },
-    {
-        "id": 3,
-        "linkRelease": "https://alcatapes.bandcamp.com/album/magia-a-la-luz-de-bajo-consumo",
-        "linkColor": "alca-yellow",
-        "cover": "cover3.jpg",
-        "title": "Magia a la luz de bajo consumo",
-        "linkLabel": "https://alcatapes.bandcamp.com/music",
-        "label": "ALCATAPES",
-        "cat": "ALCATAPE01 (Cassette & Digital)",
-        "date": "2020",
-        "tracklist": [
-            { "title": "01. X Lewisham Way" },
-            { "title": "02. Wilhelminaplein X" },
-            { "title": "03. A Space Asoke Ratchada X" },
-            { "title": "04. Colombia X" },
-            { "title": "05. Fehrbelliner Straße X" },
-            { "title": "06. X Lewisham Way (Marcos F Remix)" },
-            { "title": "07. Wilhelminaplein X (Aware Rework)" },
-            { "title": "08. A Space Asoke Ratchada X (Xnx Rmx)" },
-            { "title": "09. Colombia X (Eduardo Dito Version)" },
-            { "title": "10. Fehrbelliner Straße X (Ruben Montesco Remix)" }
-        ]
-    },
-    {
-        "id": 4,
-        "linkRelease": "https://alcatapes.bandcamp.com/album/cualquier-parecido-con-la-coincidencia-es-mera-casualidad-alcatape02",
-        "linkColor": "alca-yellow",
-        "cover": "cover4.jpg",
-        "title": "Cualquier parecido con la coincidencia es mera casualidad",
-        "linkLabel": "https://alcatapes.bandcamp.com/music",
-        "label": "ALCATAPES",
-        "cat": "ALCATAPE02 (Double Cassette & Digital)",
-        "date": "2022",
-        "tracklist": [
-            { "title": "Various Artists Compilation" }
-        ]
-    },
-    {
-        "id": 5,
-        "linkRelease": "https://globoffcorp.bandcamp.com/album/pretensiones-varias-e-inequ-vocas-falacias",
-        "linkColor": "glob-green",
-        "cover": "cover5.jpg",
-        "title": "Mambo Caníbal - Pretensiones varias e inequívocas falacias",
-        "linkLabel": "https://globoffcorp.bandcamp.com/music",
-        "label": "Global Offensive Corporation [G.O.C]",
-        "cat": "Tested Resources 003 (Digital)",
-        "date": "2024",
-        "tracklist": [
-            { "title": "Single piece divided in 5 tracks with my friend Aware" }
-        ]
-    }
+[
+  {
+    "id": 1,
+    "linkRelease": "https://illegalalienrecords.bandcamp.com/album/bossob-ep",
+    "linkColor": "alien-gray",
+    "cover": "cover1.jpg",
+    "title": "BoSsOb",
+    "linkLabel": "https://illegalalienrecords.bandcamp.com",
+    "label": "Illegal Alien Records",
+    "cat": "IAR213 (Digital)",
+    "date": "2018",
+    "tracklist": [
+      { "title": "01. BoS" },
+      { "title": "02. sOb" },
+      { "title": "03. BoS (Corvum Hypnotic Version)" },
+      { "title": "04. sOb (A Thousand Details Remix)" }
+    ]
+  },
+  {
+    "id": 2,
+    "linkRelease": "https://polymorphism.bandcamp.com/album/leafy-plains-of-incoherence-between-shadows-until-dawn-pm001",
+    "linkColor": "poly-red",
+    "cover": "cover2.jpg",
+    "title": "Leafy plains of incoherence between shadows until dawn",
+    "linkLabel": "https://polymorphism.bandcamp.com",
+    "label": "Polymorphism Records",
+    "cat": "PM001 (Vinyl & Digital)",
+    "date": "2019",
+    "tracklist": [
+      { "title": "01. Plain 1" },
+      { "title": "02. Plain 2" },
+      { "title": "03. Plain 3" },
+      { "title": "04. Plain 4" },
+      { "title": "05. Plain 1 (Hector MAD remix)" },
+      { "title": "06. Plain 2 (Solarmental remix)" },
+      { "title": "07. Plain 3 (Neri J MAD remix)" },
+      { "title": "08. Plain 4 (JLTZ remix)" }
+    ]
+  },
+  {
+    "id": 3,
+    "linkRelease": "https://alcatapes.bandcamp.com/album/magia-a-la-luz-de-bajo-consumo",
+    "linkColor": "alca-yellow",
+    "cover": "cover3.jpg",
+    "title": "Magia a la luz de bajo consumo",
+    "linkLabel": "https://alcatapes.bandcamp.com/music",
+    "label": "ALCATAPES",
+    "cat": "ALCATAPE01 (Cassette & Digital)",
+    "date": "2020",
+    "tracklist": [
+      { "title": "01. X Lewisham Way" },
+      { "title": "02. Wilhelminaplein X" },
+      { "title": "03. A Space Asoke Ratchada X" },
+      { "title": "04. Colombia X" },
+      { "title": "05. Fehrbelliner Straße X" },
+      { "title": "06. X Lewisham Way (Marcos F Remix)" },
+      { "title": "07. Wilhelminaplein X (Aware Rework)" },
+      { "title": "08. A Space Asoke Ratchada X (Xnx Rmx)" },
+      { "title": "09. Colombia X (Eduardo Dito Version)" },
+      { "title": "10. Fehrbelliner Straße X (Ruben Montesco Remix)" }
+    ]
+  },
+  {
+    "id": 4,
+    "linkRelease": "https://alcatapes.bandcamp.com/album/cualquier-parecido-con-la-coincidencia-es-mera-casualidad-alcatape02",
+    "linkColor": "alca-yellow",
+    "cover": "cover4.jpg",
+    "title": "Cualquier parecido con la coincidencia es mera casualidad",
+    "linkLabel": "https://alcatapes.bandcamp.com/music",
+    "label": "ALCATAPES",
+    "cat": "ALCATAPE02 (Double Cassette & Digital)",
+    "date": "2022",
+    "tracklist": [{ "title": "Various Artists Compilation" }]
+  },
+  {
+    "id": 5,
+    "linkRelease": "https://globoffcorp.bandcamp.com/album/pretensiones-varias-e-inequ-vocas-falacias",
+    "linkColor": "glob-green",
+    "cover": "cover5.jpg",
+    "title": "Mambo Caníbal - Pretensiones varias e inequívocas falacias",
+    "linkLabel": "https://globoffcorp.bandcamp.com/music",
+    "label": "Global Offensive Corporation [G.O.C]",
+    "cat": "Tested Resources 003 (Digital)",
+    "date": "2024",
+    "tracklist": [
+      { "title": "Single piece divided in 5 tracks with my friend Aware" }
+    ]
+  },
+  {
+    "id": 6,
+    "linkRelease": "https://alcatapes.bandcamp.com/album/en-la-hemeroteca-historia-de-espirituses-minialbum-2025",
+    "linkColor": "alca-yellow",
+    "cover": "cover6.jpg",
+    "title": "En la Hemeroteca : Historia de Espirituses",
+    "linkLabel": "https://alcatapes.bandcamp.com/",
+    "label": "ALCATAPES",
+    "cat": "ALCATAPE03 (Digital)",
+    "date": "2025",
+    "tracklist": [
+      { "title": "01. No te para naider " },
+      { "title": "02. Ayer estava mal" },
+      { "title": "03. Potenciometro" },
+      { "title": "04. Damn Bell D'or - Marcos F en el monte Kushmore" },
+      { "title": "05. Mambo Caníbal - Espieres Unpesao Bryant" },
+      { "title": "06. Historia de Espirituses" },
+      { "title": "07. Capitulo2promesa4 (Bonus)" }
+    ]
+  }
 ]

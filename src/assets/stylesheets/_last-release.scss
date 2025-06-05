@@ -1,0 +1,33 @@
+.last-release{
+    h4.last-release-title{
+        padding: 1rem;
+    }
+    img{
+        width: 100%;
+    }
+    .last-release-txt{
+        padding: 1rem;
+        .release-title{
+            line-height: 1.36em;
+            margin-bottom: 1rem;
+        }
+        .label{
+            line-height: 1.24em;
+            margin-bottom: 1rem;
+        }
+        .cat{
+            margin-bottom: 0.4rem;
+            line-height: 1.2em;
+        }
+        .date{
+            margin-bottom: 1rem;
+            line-height: 1.24em;
+        }
+        ul.tracklist{
+            li{
+                margin-bottom: 0.4rem;
+                line-height: 1.2em;
+            }
+        }
+    }
+}

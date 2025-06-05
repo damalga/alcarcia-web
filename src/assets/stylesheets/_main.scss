@@ -62,35 +62,4 @@ main {
             }
         }
     }
-
-    .support {
-        border-top: $light-gray solid 0.05rem;
-        border-bottom: $light-gray solid 0.05rem;
-        .support-container{
-            display: flex;
-            .thanks-container,
-            .damalga-container{
-                width: 50%;
-                padding: 1rem;
-                .damalga-txt {
-                    text-align: right;
-                }
-            }
-            .damalga-container{
-                .damalga-txt {
-                    p{
-                        line-height: 1.2em;
-                    }
-                }
-            }
-            .thanks-container{
-                border-right: $light-gray solid 0.05rem;
-                .thanks-txt{
-                    p{
-                        line-height: 1.2em;
-                    }
-                }
-            }
-        }
-    }
 }

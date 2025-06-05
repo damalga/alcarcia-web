@@ -1,7 +1,10 @@
 import React from 'react';
 import Other from './Other';
-import Support from './Support';
+import Design from './Design';
 import Releases from './Releases';
+import LastRelease from './LastRelease';
+
+import data from '../data/data.json';
 
 class Main extends React.Component{
 
@@ -21,10 +24,11 @@ class Main extends React.Component{
 
         <aside className='others'>
           <Other/>
+          <LastRelease/>
         </aside>
 
-        <section className='support'>
-          <Support/>
+        <section className='design'>
+          <Design/>
         </section>
       </main>
     );
