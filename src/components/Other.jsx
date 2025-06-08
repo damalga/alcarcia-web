@@ -5,7 +5,7 @@ class Others extends React.Component{
     return (
       <div className='other-tracks'>
         <a className='download-cover-letter' href="/img/alcarcia-cover-letter.png" target="_blank">
-          <img src="/img/download-cover-letter-2.svg" alt="Download Cover Letter"></img>
+          <img src="/img/download-cover-letter.svg" alt="Download Cover Letter"></img>
         </a>
         <img src="/img/aside.png" className='bg-other' alt="Alcarcia with his old Derbi Terra at home playing one record"></img>
         <div className='other-tracks-txt'>
