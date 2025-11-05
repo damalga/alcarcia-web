@@ -1,4 +1,4 @@
-@use 'colors' as *;
+@use "colors" as *;
 
 main {
     section.releases,
@@ -10,16 +10,16 @@ main {
         .release {
             width: 27%;
             display: table-cell;
-            border-right: .04rem solid $light-gray;
-            border-bottom: .04rem solid $light-gray;
+            border-right: 0.04rem solid $light-gray;
+            border-bottom: 0.04rem solid $light-gray;
             img {
                 width: 100%;
-                border-right: .04rem solid $light-gray;
-                border-bottom: .04rem solid $light-gray;
+                border-right: 0.04rem solid $light-gray;
+                border-bottom: 0.04rem solid $light-gray;
                 vertical-align: top;
             }
             a:hover img {
-                filter: brightness(1.1);
+                filter: brightness(1.2);
             }
             .release-txt {
                 padding: 1rem;
@@ -38,11 +38,11 @@ main {
                 .cat,
                 .tracklist,
                 li {
-                    margin-bottom: .4rem;
+                    margin-bottom: 0.4rem;
                 }
             }
             &:nth-last-child(3),
-            &:nth-last-child(2){
+            &:nth-last-child(2) {
                 display: inline-block;
                 width: 50%;
                 img,
@@ -60,7 +60,7 @@ main {
                     vertical-align: top;
                 }
             }
-            &:nth-last-child(1){
+            &:nth-last-child(1) {
                 display: inline-block;
                 width: 100%;
                 border-bottom: 0;
@@ -69,9 +69,9 @@ main {
                     width: 50%;
                     display: inline-block;
                 }
-                img{
+                img {
                     border-bottom: 0;
-                    border-right: .04rem solid $light-gray;
+                    border-right: 0.04rem solid $light-gray;
                 }
             }
         }

@@ -31,9 +31,9 @@
                     line-height: 1.4em;
                 }
                 h3 a {
+                    transition: filter 0.3s ease;
                     &:hover {
-                        filter: none;
-                        color: $mid-gray;
+                        filter: brightness(0) saturate(100%) invert(45%) sepia(100%) saturate(2000%) hue-rotate(200deg) brightness(100%) contrast(100%);
                     }
                 }
             }

@@ -22,7 +22,7 @@ aside.others {
             }
         }
         &:hover img {
-            filter: none;
+            filter: brightness(0) saturate(100%) invert(91%) sepia(100%) saturate(1567%) hue-rotate(358deg) brightness(104%) contrast(97%);
         }
     }
     > div {
@@ -86,7 +86,7 @@ aside.others {
             line-height: 1rem;
             letter-spacing: 0.02em;
             background: $light-gray;
-            padding: 0.6rem 0.4rem 0.4rem.4rem;
+            padding: 0.6rem 0.4rem 0.4rem 0.4rem;
             font-size: 0.72rem;
         }
     }
