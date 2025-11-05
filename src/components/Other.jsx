@@ -1,10 +1,10 @@
 function Other() {
   return (
     <div className='other-tracks'>
-      <a className='download-cover-letter' href="/img/alcarcia-cover-letter.png" target="_blank" rel="noopener noreferrer">
+      <a className='download-cover-letter' href="/img/webp/alcarcia-cover-letter.webp" target="_blank" rel="noopener noreferrer">
         <img src="/img/download-cover-letter.svg" alt="Download Cover Letter"></img>
       </a>
-      <img src="/img/aside.png" className='bg-other' alt="Alcarcia with his old Derbi Terra at home playing one record"></img>
+      <img src="/img/webp/aside.webp" className='bg-other' alt="Alcarcia with his old Derbi Terra at home playing one record"></img>
       <div className='other-tracks-txt'>
         <h4 className="other-tracks-title">Other tracks</h4>
         <ul className="other-tracks-list">
