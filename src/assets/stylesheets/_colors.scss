@@ -1,57 +1,14 @@
 $dark-gray: #080808;
 $mid-gray: #121212;
-$light-gray: #F4F4F4;
+$light-gray: #f4f4f4;
 
-$poly-red: #C81414;
-$alca-yellow: #F9EC03;
+$poly-red: #c81414;
+$alca-yellow: #f9ec03;
 $glob-green: #86996c;
-$alien-gray: #9E9E9E;
+$alien-gray: #9e9e9e;
+$damalga-blue: #1b52bf;
 
 $dg: #d8d8d8;
-$bc: #619AA9;
-$sc: #EC5405;
-$ig: #DD2A7B;
-
-//RELEASES
-.poly-red{
-    &:hover{
-        color: $poly-red;
-    }
-}
-.alca-yellow{
-    &:hover{
-        color: $alca-yellow;
-    }
-}
-.glob-green{
-    &:hover{
-        color: $glob-green;
-    }
-}
-.alien-gray{
-    &:hover{
-        color: $alien-gray;
-    }
-}
-
-//RRSS
-.bc{
-    &:hover{
-        color: $bc;
-    }
-}
-.dg{
-    &:hover{
-        color: $dg;
-    }
-}
-.sc{
-    &:hover{
-        color: $sc;
-    }
-}
-.ig{
-    &:hover{
-        color: $ig;
-    }
-}
+$bc: #619aa9;
+$sc: #ec5405;
+$ig: #dd2a7b;

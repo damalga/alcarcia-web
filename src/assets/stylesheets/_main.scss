@@ -18,6 +18,9 @@ main {
                 border-bottom: .04rem solid $light-gray;
                 vertical-align: top;
             }
+            a:hover img {
+                filter: brightness(1.1);
+            }
             .release-txt {
                 padding: 1rem;
                 .release-title,

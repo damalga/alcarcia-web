@@ -5,6 +5,7 @@ body {
     margin: 16px auto;
     max-width: 1200px;
     border: $light-gray solid .05rem;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3 L5 17 L9 13 L12 19 L14 18 L11 12 L17 12 Z" fill="%23F9EC03" stroke="%23121212" stroke-width="1.5"/></svg>') 5 3, auto;
 }
 
 .bg {

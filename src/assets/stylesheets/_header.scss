@@ -28,9 +28,9 @@ header {
             border-left: $light-gray solid .05rem;
             img {
                 width: 80%;
-                &:hover {
-                    opacity: .6;
-                }
+            }
+            &:hover img {
+                filter: brightness(0) saturate(100%) invert(91%) sepia(100%) saturate(1567%) hue-rotate(358deg) brightness(104%) contrast(97%);
             }
         }
     }
