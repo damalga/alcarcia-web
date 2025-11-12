@@ -1,11 +1,30 @@
-@use 'colors' as *;
+@use "colors" as *;
 
 body {
     background-color: $mid-gray;
     margin: 16px auto;
     max-width: 1200px;
-    border: $light-gray solid .05rem;
-    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3 L5 17 L9 13 L12 19 L14 18 L11 12 L17 12 Z" fill="%23F9EC03" stroke="%23121212" stroke-width="1.5"/></svg>') 5 3, auto;
+    border: $light-gray solid 0.05rem;
+    cursor:
+        url("data:image/svg+xml;utf8,\
+    <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'>\
+    <path d='M3 21 L21 3 L3 3 Z' fill='%23F9EC03' stroke='%23ffffff' stroke-width='1'/>\
+    </svg>")
+            4 4,
+        auto;
+}
+
+a,
+button,
+[role="button"],
+.clickable {
+    cursor:
+        url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'>\
+<rect x='4' y='4' width='16' height='16' fill='%23F9EC03' stroke='%23ffffff' stroke-width='1'/>\
+</svg>")
+            4 4,
+        pointer;
 }
 
 .bg {
@@ -16,46 +35,46 @@ body {
     bottom: -50%;
     width: 200%;
     height: 200vh;
-    background: transparent url('../img/webp/noise-transparent.webp') repeat 0 0;
+    background: transparent url("../img/webp/noise-transparent.webp") repeat 0 0;
     background-repeat: repeat;
-    animation: bg-animation .2s infinite;
-    opacity: .8;
+    animation: bg-animation 0.2s infinite;
+    opacity: 0.8;
     visibility: visible;
     z-index: -1;
 }
 
 @keyframes bg-animation {
     0% {
-        transform: translate(0, 0)
+        transform: translate(0, 0);
     }
     10% {
-        transform: translate(-5%, -5%)
+        transform: translate(-5%, -5%);
     }
     20% {
-        transform: translate(-10%, 5%)
+        transform: translate(-10%, 5%);
     }
     30% {
-        transform: translate(5%, -10%)
+        transform: translate(5%, -10%);
     }
     40% {
-        transform: translate(-5%, 15%)
+        transform: translate(-5%, 15%);
     }
     50% {
-        transform: translate(-10%, 5%)
+        transform: translate(-10%, 5%);
     }
     60% {
-        transform: translate(15%, 0)
+        transform: translate(15%, 0);
     }
     70% {
-        transform: translate(0, 10%)
+        transform: translate(0, 10%);
     }
     80% {
-        transform: translate(-15%, 0)
+        transform: translate(-15%, 0);
     }
     90% {
-        transform: translate(10%, 5%)
+        transform: translate(10%, 5%);
     }
     100% {
-        transform: translate(5%, 0)
+        transform: translate(5%, 0);
     }
 }
