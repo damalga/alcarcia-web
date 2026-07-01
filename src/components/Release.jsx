@@ -19,7 +19,11 @@ function Release({ release }) {
         <h6 className="date">{release.date}</h6>
         <ul className="tracklist">
           {release.tracklist.map((track, idx) => (
-            <li key={idx}>{track.title}</li>
+            <li key={idx}>
+              {track.link
+                ? <a href={track.link} className={release.linkColor} target="_blank" rel="noopener noreferrer">{track.title}</a>
+                : track.title}
+            </li>
           ))}
         </ul>
       </div>
