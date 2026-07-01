@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Structured index for LLMs: /llms.txt (compact) and /llms-full.txt (expanded)

@@ -1,0 +1,126 @@
+# Alcarcia — Full discography
+
+> Personal site of Alcarcia (aka Damalga): Spanish electronic music producer, graphic designer and web developer. This is the expanded index — same content as `/llms.txt` plus every tracklist inline, with a direct Bandcamp link for each track.
+
+Alcarcia is the music alias of Damalga. Six releases published between 2018 and 2025 across four independent labels: Illegal Alien Records, Polymorphism Records, ALCATAPES and Global Offensive Corporation. Site is a React sandbox built with minimum dependencies (React 19, Vite, SCSS, Lenis smooth scroll), sourced from a single `src/data/data.json`.
+
+## BoSsOb — Illegal Alien Records (2018)
+
+- Album: [BoSsOb](https://illegalalienrecords.bandcamp.com/album/bossob-ep)
+- Catalogue: IAR213
+- Format: Digital
+- Label: [Illegal Alien Records](https://illegalalienrecords.bandcamp.com)
+
+Tracklist:
+
+- [01. BoS](https://illegalalienrecords.bandcamp.com/track/alcarcia-bos)
+- [02. sOb](https://illegalalienrecords.bandcamp.com/track/alcarcia-sob)
+- [03. BoS (Corvum Hypnotic Version)](https://illegalalienrecords.bandcamp.com/track/alcarcia-bos-corvum-hypnotic-version)
+- [04. sOb (A Thousand Details Remix)](https://illegalalienrecords.bandcamp.com/track/alcarcia-sob-a-thousand-details-remix)
+
+## Leafy plains of incoherence between shadows until dawn — Polymorphism Records (2019)
+
+- Album: [Leafy plains of incoherence between shadows until dawn](https://polymorphism.bandcamp.com/album/leafy-plains-of-incoherence-between-shadows-until-dawn-pm001)
+- Catalogue: PM001
+- Format: Vinyl & Digital
+- Label: [Polymorphism Records](https://polymorphism.bandcamp.com)
+
+Tracklist:
+
+- [01. Plain 1](https://polymorphism.bandcamp.com/track/plain-1)
+- [02. Plain 2](https://polymorphism.bandcamp.com/track/plain-2)
+- [03. Plain 3](https://polymorphism.bandcamp.com/track/plain-3)
+- [04. Plain 4](https://polymorphism.bandcamp.com/track/plain-4)
+- [05. Plain 1 (Hector MAD remix)](https://polymorphism.bandcamp.com/track/plain-1-hector-mad-remix)
+- [06. Plain 2 (Solarmental remix)](https://polymorphism.bandcamp.com/track/plain-2-solarmental-remix)
+- [07. Plain 3 (Neri J MAD remix)](https://polymorphism.bandcamp.com/track/plain-3-neri-j-remix)
+- [08. Plain 4 (JLTZ remix)](https://polymorphism.bandcamp.com/track/plain-4-jltz-remix)
+
+## Magia a la luz de bajo consumo — ALCATAPES (2020)
+
+- Album: [Magia a la luz de bajo consumo](https://alcatapes.bandcamp.com/album/magia-a-la-luz-de-bajo-consumo)
+- Catalogue: ALCATAPE01
+- Format: Cassette & Digital
+- Label: [ALCATAPES](https://alcatapes.bandcamp.com/music)
+
+Tracklist:
+
+- [01. X Lewisham Way](https://alcatapes.bandcamp.com/track/x-lewisham-way)
+- [02. Wilhelminaplein X](https://alcatapes.bandcamp.com/track/wilhelminaplein-x)
+- [03. A Space Asoke Ratchada X](https://alcatapes.bandcamp.com/track/a-space-asoke-ratchada-x)
+- [04. Colombia X](https://alcatapes.bandcamp.com/track/colombia-x)
+- [05. Fehrbelliner Straße X](https://alcatapes.bandcamp.com/track/fehrbelliner-stra-e-x)
+- [06. X Lewisham Way (Marcos F Remix)](https://alcatapes.bandcamp.com/track/x-lewisham-way-marcos-f-remix)
+- [07. Wilhelminaplein X (Aware Rework)](https://alcatapes.bandcamp.com/track/wilhelminaplein-x-aware-rework)
+- [08. A Space Asoke Ratchada X (Xnx Rmx)](https://alcatapes.bandcamp.com/track/a-space-asoke-ratchada-x-xnx-rmx)
+- [09. Colombia X (Eduardo Dito Version)](https://alcatapes.bandcamp.com/track/colombia-x-eduardo-dito-version)
+- [10. Fehrbelliner Straße X (Ruben Montesco Remix)](https://alcatapes.bandcamp.com/track/fehrbelliner-stra-e-x-ruben-montesco-remix)
+
+## Cualquier parecido con la coincidencia es mera casualidad — ALCATAPES (2022)
+
+- Album: [Cualquier parecido con la coincidencia es mera casualidad](https://alcatapes.bandcamp.com/album/cualquier-parecido-con-la-coincidencia-es-mera-casualidad-alcatape02)
+- Catalogue: ALCATAPE02
+- Format: Double Cassette & Digital
+- Label: [ALCATAPES](https://alcatapes.bandcamp.com/music)
+- Note: Various Artists compilation. Alcarcia appears on track 18 with "Severe Disrepair".
+
+Tracklist:
+
+- [01. Tony Turbo - Entry Glide](https://alcatapes.bandcamp.com/track/tony-turbo-entry-glide)
+- [02. Marcos F - Alcarcia in Yellowstone](https://alcatapes.bandcamp.com/track/marcos-f-alcarcia-in-yellowstone)
+- [03. Eduardo Dito - Feeling Small](https://alcatapes.bandcamp.com/track/eduardo-dito-feeling-small)
+- [04. Rise Black - Carne Cruda](https://alcatapes.bandcamp.com/track/rise-black-carne-cruda)
+- [05. TeZ - SKANF](https://alcatapes.bandcamp.com/track/tez-skanf)
+- [06. 4R5 - Dirty Spring](https://alcatapes.bandcamp.com/track/4r5-dirty-spring)
+- [07. Balfa - mod cy V3 [Initmix]](https://alcatapes.bandcamp.com/track/balfa-mod-cy-v3-initmix)
+- [08. Dj Handikap - No Hate Where I Come From (Pro Evolution Fucker 5)](https://alcatapes.bandcamp.com/track/dj-handikap-no-hate-where-i-come-from-pro-evolution-fucker-5)
+- [09. Aware - Yadernaya Depresiya](https://alcatapes.bandcamp.com/track/aware-yadernaya-depresiya)
+- [10. Antwood - Trust no 1](https://alcatapes.bandcamp.com/track/antwood-trust-no-1)
+- [11. JLTZ - Carousel](https://alcatapes.bandcamp.com/track/jltz-carousel)
+- [12. Dj Ventolin - Composition Notebook](https://alcatapes.bandcamp.com/track/dj-ventolin-composition-notebook)
+- [13. Mova - Bark to the one who deserves](https://alcatapes.bandcamp.com/track/mova-bark-to-the-one-who-deserves)
+- [14. 10AgeRiots - Psyberia](https://alcatapes.bandcamp.com/track/10ageriots-psyberia)
+- [15. Elijah Weed - Another World](https://alcatapes.bandcamp.com/track/elijah-weed-another-world)
+- [16. antechamber - Time Seldom Visits](https://alcatapes.bandcamp.com/track/antechamber-time-seldom-visits)
+- [17. The Fifth Stigma - Stained Swords With The Blood Of Dishonor](https://alcatapes.bandcamp.com/track/the-fifth-stigma-stained-swords-with-the-blood-of-dishonor)
+- [18. Alcarcia - Severe Disrepair](https://alcatapes.bandcamp.com/track/alcarcia-severe-disrepair)
+- [19. Not A Headliner - Honestidad sin amabilidad es brutalidad](https://alcatapes.bandcamp.com/track/not-a-headliner-honestidad-sin-amabilidad-es-brutalidad)
+
+## Mambo Caníbal - Pretensiones varias e inequívocas falacias — Global Offensive Corporation (2024)
+
+- Album: [Mambo Caníbal - Pretensiones varias e inequívocas falacias](https://globoffcorp.bandcamp.com/album/pretensiones-varias-e-inequ-vocas-falacias)
+- Catalogue: Tested Resources 003
+- Format: Digital
+- Label: [Global Offensive Corporation [G.O.C]](https://globoffcorp.bandcamp.com/music)
+- Note: Collaboration with Aware. Single piece split across 5 tracks.
+
+Tracklist:
+
+- [01.](https://globoffcorp.bandcamp.com/track/1)
+- [02.](https://globoffcorp.bandcamp.com/track/2)
+- [03.](https://globoffcorp.bandcamp.com/track/3)
+- [04.](https://globoffcorp.bandcamp.com/track/4)
+- [05.](https://globoffcorp.bandcamp.com/track/5)
+
+## En la Hemeroteca: Historia de Espirituses — ALCATAPES (2025)
+
+- Album: [En la Hemeroteca: Historia de Espirituses](https://alcatapes.bandcamp.com/album/en-la-hemeroteca-historia-de-espirituses-minialbum-2025)
+- Catalogue: ALCATAPE03
+- Format: Digital
+- Label: [ALCATAPES](https://alcatapes.bandcamp.com/)
+
+Tracklist:
+
+- [01. No te para naider](https://alcatapes.bandcamp.com/track/no-te-para-naider)
+- [02. Ayer estava mal](https://alcatapes.bandcamp.com/track/ayer-estava-mal)
+- [03. Potenciometro](https://alcatapes.bandcamp.com/track/potenciometro)
+- [04. Damn Bell D'or - Marcos F en el monte Kushmore](https://alcatapes.bandcamp.com/track/damn-bell-dor-marcos-f-en-el-monte-kushmore-deathgrips-exmilitary-test-without-the-sad-junko)
+- [05. Mambo Caníbal - Espieres Unpesao Bryant](https://alcatapes.bandcamp.com/track/mambo-can-bal-espieres-unpesao-bryant)
+- [06. Historia de Espirituses](https://alcatapes.bandcamp.com/track/historia-de-espirituses)
+- 07. Capitulo2promesa4 (Bandcamp Bonus track — no public URL)
+
+## Related
+
+- [damalga.com](https://damalga.com): Damalga's graphic design and web development portfolio.
+- [Source code](https://github.com/damalga/alcarcia-web): Repository for this website.
+- [damalga-web](https://github.com/damalga/damalga-web): Sister project sharing the same "default mode, minimum dependencies" ethos.
