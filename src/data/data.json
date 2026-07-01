@@ -10,10 +10,10 @@
     "cat": "IAR213 (Digital)",
     "date": "2018",
     "tracklist": [
-      { "title": "01. BoS" },
-      { "title": "02. sOb" },
-      { "title": "03. BoS (Corvum Hypnotic Version)" },
-      { "title": "04. sOb (A Thousand Details Remix)" }
+      { "title": "01. BoS", "link": "https://illegalalienrecords.bandcamp.com/track/alcarcia-bos" },
+      { "title": "02. sOb", "link": "https://illegalalienrecords.bandcamp.com/track/alcarcia-sob" },
+      { "title": "03. BoS (Corvum Hypnotic Version)", "link": "https://illegalalienrecords.bandcamp.com/track/alcarcia-bos-corvum-hypnotic-version" },
+      { "title": "04. sOb (A Thousand Details Remix)", "link": "https://illegalalienrecords.bandcamp.com/track/alcarcia-sob-a-thousand-details-remix" }
     ]
   },
   {
@@ -27,14 +27,14 @@
     "cat": "PM001 (Vinyl & Digital)",
     "date": "2019",
     "tracklist": [
-      { "title": "01. Plain 1" },
-      { "title": "02. Plain 2" },
-      { "title": "03. Plain 3" },
-      { "title": "04. Plain 4" },
-      { "title": "05. Plain 1 (Hector MAD remix)" },
-      { "title": "06. Plain 2 (Solarmental remix)" },
-      { "title": "07. Plain 3 (Neri J MAD remix)" },
-      { "title": "08. Plain 4 (JLTZ remix)" }
+      { "title": "01. Plain 1", "link": "https://polymorphism.bandcamp.com/track/plain-1" },
+      { "title": "02. Plain 2", "link": "https://polymorphism.bandcamp.com/track/plain-2" },
+      { "title": "03. Plain 3", "link": "https://polymorphism.bandcamp.com/track/plain-3" },
+      { "title": "04. Plain 4", "link": "https://polymorphism.bandcamp.com/track/plain-4" },
+      { "title": "05. Plain 1 (Hector MAD remix)", "link": "https://polymorphism.bandcamp.com/track/plain-1-hector-mad-remix" },
+      { "title": "06. Plain 2 (Solarmental remix)", "link": "https://polymorphism.bandcamp.com/track/plain-2-solarmental-remix" },
+      { "title": "07. Plain 3 (Neri J MAD remix)", "link": "https://polymorphism.bandcamp.com/track/plain-3-neri-j-remix" },
+      { "title": "08. Plain 4 (JLTZ remix)", "link": "https://polymorphism.bandcamp.com/track/plain-4-jltz-remix" }
     ]
   },
   {
@@ -48,16 +48,16 @@
     "cat": "ALCATAPE01 (Cassette & Digital)",
     "date": "2020",
     "tracklist": [
-      { "title": "01. X Lewisham Way" },
-      { "title": "02. Wilhelminaplein X" },
-      { "title": "03. A Space Asoke Ratchada X" },
-      { "title": "04. Colombia X" },
-      { "title": "05. Fehrbelliner Straße X" },
-      { "title": "06. X Lewisham Way (Marcos F Remix)" },
-      { "title": "07. Wilhelminaplein X (Aware Rework)" },
-      { "title": "08. A Space Asoke Ratchada X (Xnx Rmx)" },
-      { "title": "09. Colombia X (Eduardo Dito Version)" },
-      { "title": "10. Fehrbelliner Straße X (Ruben Montesco Remix)" }
+      { "title": "01. X Lewisham Way", "link": "https://alcatapes.bandcamp.com/track/x-lewisham-way" },
+      { "title": "02. Wilhelminaplein X", "link": "https://alcatapes.bandcamp.com/track/wilhelminaplein-x" },
+      { "title": "03. A Space Asoke Ratchada X", "link": "https://alcatapes.bandcamp.com/track/a-space-asoke-ratchada-x" },
+      { "title": "04. Colombia X", "link": "https://alcatapes.bandcamp.com/track/colombia-x" },
+      { "title": "05. Fehrbelliner Straße X", "link": "https://alcatapes.bandcamp.com/track/fehrbelliner-stra-e-x" },
+      { "title": "06. X Lewisham Way (Marcos F Remix)", "link": "https://alcatapes.bandcamp.com/track/x-lewisham-way-marcos-f-remix" },
+      { "title": "07. Wilhelminaplein X (Aware Rework)", "link": "https://alcatapes.bandcamp.com/track/wilhelminaplein-x-aware-rework" },
+      { "title": "08. A Space Asoke Ratchada X (Xnx Rmx)", "link": "https://alcatapes.bandcamp.com/track/a-space-asoke-ratchada-x-xnx-rmx" },
+      { "title": "09. Colombia X (Eduardo Dito Version)", "link": "https://alcatapes.bandcamp.com/track/colombia-x-eduardo-dito-version" },
+      { "title": "10. Fehrbelliner Straße X (Ruben Montesco Remix)", "link": "https://alcatapes.bandcamp.com/track/fehrbelliner-stra-e-x-ruben-montesco-remix" }
     ]
   },
   {
@@ -70,7 +70,27 @@
     "label": "ALCATAPES",
     "cat": "ALCATAPE02 (Double Cassette & Digital)",
     "date": "2022",
-    "tracklist": [{ "title": "Various Artists Compilation" }]
+    "tracklist": [
+      { "title": "01. Tony Turbo - Entry Glide", "link": "https://alcatapes.bandcamp.com/track/tony-turbo-entry-glide" },
+      { "title": "02. Marcos F - Alcarcia in Yellowstone", "link": "https://alcatapes.bandcamp.com/track/marcos-f-alcarcia-in-yellowstone" },
+      { "title": "03. Eduardo Dito - Feeling Small", "link": "https://alcatapes.bandcamp.com/track/eduardo-dito-feeling-small" },
+      { "title": "04. Rise Black - Carne Cruda", "link": "https://alcatapes.bandcamp.com/track/rise-black-carne-cruda" },
+      { "title": "05. TeZ - SKANF", "link": "https://alcatapes.bandcamp.com/track/tez-skanf" },
+      { "title": "06. 4R5 - Dirty Spring", "link": "https://alcatapes.bandcamp.com/track/4r5-dirty-spring" },
+      { "title": "07. Balfa - mod cy V3 [Initmix]", "link": "https://alcatapes.bandcamp.com/track/balfa-mod-cy-v3-initmix" },
+      { "title": "08. Dj Handikap - No Hate Where I Come From (Pro Evolution Fucker 5)", "link": "https://alcatapes.bandcamp.com/track/dj-handikap-no-hate-where-i-come-from-pro-evolution-fucker-5" },
+      { "title": "09. Aware - Yadernaya Depresiya", "link": "https://alcatapes.bandcamp.com/track/aware-yadernaya-depresiya" },
+      { "title": "10. Antwood - Trust no 1", "link": "https://alcatapes.bandcamp.com/track/antwood-trust-no-1" },
+      { "title": "11. JLTZ - Carousel", "link": "https://alcatapes.bandcamp.com/track/jltz-carousel" },
+      { "title": "12. Dj Ventolin - Composition Notebook", "link": "https://alcatapes.bandcamp.com/track/dj-ventolin-composition-notebook" },
+      { "title": "13. Mova - Bark to the one who deserves", "link": "https://alcatapes.bandcamp.com/track/mova-bark-to-the-one-who-deserves" },
+      { "title": "14. 10AgeRiots - Psyberia", "link": "https://alcatapes.bandcamp.com/track/10ageriots-psyberia" },
+      { "title": "15. Elijah Weed - Another World", "link": "https://alcatapes.bandcamp.com/track/elijah-weed-another-world" },
+      { "title": "16. antechamber - Time Seldom Visits", "link": "https://alcatapes.bandcamp.com/track/antechamber-time-seldom-visits" },
+      { "title": "17. The Fifth Stigma - Stained Swords With The Blood Of Dishonor", "link": "https://alcatapes.bandcamp.com/track/the-fifth-stigma-stained-swords-with-the-blood-of-dishonor" },
+      { "title": "18. Alcarcia - Severe Disrepair", "link": "https://alcatapes.bandcamp.com/track/alcarcia-severe-disrepair" },
+      { "title": "19. Not A Headliner - Honestidad sin amabilidad es brutalidad", "link": "https://alcatapes.bandcamp.com/track/not-a-headliner-honestidad-sin-amabilidad-es-brutalidad" }
+    ]
   },
   {
     "id": 5,
@@ -83,7 +103,11 @@
     "cat": "Tested Resources 003 (Digital)",
     "date": "2024",
     "tracklist": [
-      { "title": "Single piece divided in 5 tracks with my friend Aware" }
+      { "title": "01.", "link": "https://globoffcorp.bandcamp.com/track/1" },
+      { "title": "02.", "link": "https://globoffcorp.bandcamp.com/track/2" },
+      { "title": "03.", "link": "https://globoffcorp.bandcamp.com/track/3" },
+      { "title": "04.", "link": "https://globoffcorp.bandcamp.com/track/4" },
+      { "title": "05.", "link": "https://globoffcorp.bandcamp.com/track/5" }
     ]
   },
   {
@@ -97,12 +121,12 @@
     "cat": "ALCATAPE03 (Digital)",
     "date": "2025",
     "tracklist": [
-      { "title": "01. No te para naider " },
-      { "title": "02. Ayer estava mal" },
-      { "title": "03. Potenciometro" },
-      { "title": "04. Damn Bell D'or - Marcos F en el monte Kushmore" },
-      { "title": "05. Mambo Caníbal - Espieres Unpesao Bryant" },
-      { "title": "06. Historia de Espirituses" },
+      { "title": "01. No te para naider ", "link": "https://alcatapes.bandcamp.com/track/no-te-para-naider" },
+      { "title": "02. Ayer estava mal", "link": "https://alcatapes.bandcamp.com/track/ayer-estava-mal" },
+      { "title": "03. Potenciometro", "link": "https://alcatapes.bandcamp.com/track/potenciometro" },
+      { "title": "04. Damn Bell D'or - Marcos F en el monte Kushmore", "link": "https://alcatapes.bandcamp.com/track/damn-bell-dor-marcos-f-en-el-monte-kushmore-deathgrips-exmilitary-test-without-the-sad-junko" },
+      { "title": "05. Mambo Caníbal - Espieres Unpesao Bryant", "link": "https://alcatapes.bandcamp.com/track/mambo-can-bal-espieres-unpesao-bryant" },
+      { "title": "06. Historia de Espirituses", "link": "https://alcatapes.bandcamp.com/track/historia-de-espirituses" },
       { "title": "07. Capitulo2promesa4 (Bandcamp Bonus track)" }
     ]
   }
