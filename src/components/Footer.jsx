@@ -3,10 +3,42 @@ function Footer() {
     <footer>
       <section className="rrss">
         <ul className="rrss-list">
-          <li className="rs"><a className="bc" href="https://alcatapes.bandcamp.com/" target="_blank" rel="noopener noreferrer">Bandcamp</a></li>
-          <li className="rs"><a className="sc" href="https://soundcloud.com/alcarcia" target="_blank" rel="noopener noreferrer">Soundcloud</a></li>
-          <li className="rs"><a className="dg" href="https://www.discogs.com/artist/6426813-Alcarcia" target="_blank" rel="noopener noreferrer">Discogs</a></li>
-          <li className="rs"><a className="ig" href="https://www.instagram.com/alcarciandamalga/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li className="rs">
+            <a
+              href="https://alcatapes.bandcamp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Bandcamp
+            </a>
+          </li>
+          <li className="rs">
+            <a
+              href="https://soundcloud.com/alcarcia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Soundcloud
+            </a>
+          </li>
+          <li className="rs">
+            <a
+              href="https://www.discogs.com/artist/6426813-Alcarcia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Discogs
+            </a>
+          </li>
+          <li className="rs">
+            <a
+              href="https://bsky.app/profile/alcarciandamalga.bsky.social"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Bluesky
+            </a>
+          </li>
         </ul>
       </section>
     </footer>
