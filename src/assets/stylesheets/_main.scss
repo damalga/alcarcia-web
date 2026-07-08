@@ -1,82 +1,97 @@
 @use "colors" as *;
 
 main {
-    section.releases,
-    aside.others {
+  section.releases,
+  aside.others {
+    display: inline-block;
+  }
+  section.releases {
+    width: 75%;
+    .release {
+      width: 27%;
+      display: table-cell;
+      position: relative;
+      border: 0.04rem solid transparent;
+      border-right-color: $light-gray;
+      border-bottom-color: $light-gray;
+      transition:
+        transform 0.4s ease,
+        border-color 0.3s ease;
+      img {
+        width: 100%;
+        border-right: 0.04rem solid $light-gray;
+        border-bottom: 0.04rem solid $light-gray;
+        vertical-align: top;
+        transition: filter 0.2s ease;
+      }
+      a:hover img {
+        filter: brightness(1.12);
+      }
+      &:hover {
+        background: $mid-gray;
+        transform: scale(1.024);
+        z-index: 10;
+        border-color: $light-gray;
+      }
+      .release-txt {
+        padding: 1rem;
+        .release-title,
+        .label,
+        .date {
+          margin-bottom: 1rem;
+        }
+        .release-title {
+          line-height: 1.4em;
+        }
+        .cat,
+        .date {
+          text-align: right;
+        }
+        .cat,
+        .tracklist,
+        li {
+          margin-bottom: 0.4rem;
+        }
+      }
+    }
+    .release-row {
+      display: flex;
+      align-items: stretch;
+      .release {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        img,
+        .release-txt {
+          display: block;
+          width: 100%;
+        }
+        img {
+          border-bottom: 0;
+          margin-bottom: -0.4rem;
+        }
+        .release-txt {
+          flex: 1;
+          padding: 1rem;
+        }
+      }
+    }
+    > .release:last-child {
+      display: inline-block;
+      width: 100%;
+      border-bottom-color: transparent;
+      img,
+      .release-txt {
+        width: 50%;
         display: inline-block;
+      }
+      img {
+        border-bottom: 0;
+        border-right: 0.04rem solid $light-gray;
+      }
+      &:hover {
+        border-bottom-color: $light-gray;
+      }
     }
-    section.releases {
-        width: 75%;
-        .release {
-            width: 27%;
-            display: table-cell;
-            border-right: 0.04rem solid $light-gray;
-            border-bottom: 0.04rem solid $light-gray;
-            img {
-                width: 100%;
-                border-right: 0.04rem solid $light-gray;
-                border-bottom: 0.04rem solid $light-gray;
-                vertical-align: top;
-            }
-            a:hover img {
-                filter: brightness(1.2);
-            }
-            .release-txt {
-                padding: 1rem;
-                .release-title,
-                .label,
-                .date {
-                    margin-bottom: 1rem;
-                }
-                .release-title {
-                    line-height: 1.4em;
-                }
-                .cat,
-                .date {
-                    text-align: right;
-                }
-                .cat,
-                .tracklist,
-                li {
-                    margin-bottom: 0.4rem;
-                }
-            }
-        }
-        .release-row {
-            display: flex;
-            align-items: stretch;
-            .release {
-                display: flex;
-                flex-direction: column;
-                width: 50%;
-                img,
-                .release-txt {
-                    display: block;
-                    width: 100%;
-                }
-                img {
-                    border-bottom: 0;
-                    margin-bottom: -0.4rem;
-                }
-                .release-txt {
-                    flex: 1;
-                    padding: 1rem;
-                }
-            }
-        }
-        > .release:last-child {
-            display: inline-block;
-            width: 100%;
-            border-bottom: 0;
-            img,
-            .release-txt {
-                width: 50%;
-                display: inline-block;
-            }
-            img {
-                border-bottom: 0;
-                border-right: 0.04rem solid $light-gray;
-            }
-        }
-    }
+  }
 }
