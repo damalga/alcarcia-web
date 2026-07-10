@@ -1,32 +1,33 @@
-@use 'colors' as *;
+@use "colors" as *;
 
 footer {
+  width: 100%;
+  display: flex;
+  .support,
+  .contact,
+  .rrss {
+    padding: 2rem 1rem;
+  }
+  .support,
+  .contact {
+    display: inline-block;
+  }
+  .support {
+    width: 50%;
+    border-right: $light-gray solid 0.05rem;
+  }
+  .rrss {
     width: 100%;
-    display: flex;
-    .support,
-    .contact,
-    .rrss {
-        padding: 2rem;
-    }
-    .support,
-    .contact {
-        display: inline-block;
-    }
-    .support {
-        width: 50%;
-        border-right: $light-gray solid .05rem;
-    }
-    .rrss {
-        width: 100%;
-        text-align: right;
-        .rrss-list {
-            .rs {
-                display: inline;
-                margin-left: 1rem;
-                &:first-child {
-                    margin-left: 0;
-                }
-            }
+    text-align: right;
+    .rrss-list {
+      .rs {
+        display: inline;
+        margin-left: 1rem;
+        &:first-child {
+          float: left;
+          margin-left: 0;
         }
+      }
     }
+  }
 }

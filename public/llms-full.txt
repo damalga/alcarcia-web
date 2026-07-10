@@ -1,8 +1,8 @@
 # Alcarcia — Full discography
 
-> Personal site of Alcarcia (aka Damalga): Spanish electronic music producer, graphic designer and web developer. This is the expanded index — same content as `/llms.txt` plus every tracklist inline, with a direct Bandcamp link for each track.
+> Personal site of Alcarcia (aka Damalga): Spanish electronic music producer, graphic designer and web developer. This is the expanded index; Same content as 'llms.txt' plus every tracklist inline, with a direct Bandcamp link for each track.
 
-Alcarcia is the music alias of Damalga. Six releases published between 2018 and 2025 across four independent labels: Illegal Alien Records, Polymorphism Records, ALCATAPES and Global Offensive Corporation. Site is a React sandbox built with minimum dependencies (React 19, Vite, SCSS, Lenis smooth scroll), sourced from a single `src/data/data.json`.
+Alcarcia is the music alias of Damalga. Six releases published between 2018 and 2025 across four independent labels: Illegal Alien Records, Polymorphism Records, ALCATAPES and Global Offensive Corporation. Site is a React sandbox built with minimum dependencies (React 19, Vite, SCSS, Lenis for 'smooth scroll'), sourced from a single 'data.json'.
 
 ## BoSsOb — Illegal Alien Records (2018)
 
@@ -122,5 +122,8 @@ Tracklist:
 ## Related
 
 - [damalga.com](https://damalga.com): Damalga's graphic design and web development portfolio.
-- [Source code](https://github.com/damalga/alcarcia-web): Repository for this website.
-- [damalga-web](https://github.com/damalga/damalga-web): Sister project sharing the same "default mode, minimum dependencies" ethos.
+
+## Optional
+
+- [Alcarcia Source code](https://github.com/damalga/alcarcia-web): Repository for this website.
+- [Damalga Source code](https://github.com/damalga/damalga-web): "Sister" project referenced in the site's philosophy, same "default mode, minimum dependencies" Ethos.

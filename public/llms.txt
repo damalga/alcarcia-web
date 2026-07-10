@@ -2,29 +2,31 @@
 
 > Personal site of Alcarcia (aka Damalga): Spanish electronic music producer, graphic designer and web developer. Catalogues six releases published between 2018 and 2025 across independent labels, with tracklists linked to their Bandcamp pages.
 
-This site doubles as a React sandbox and a shelf for his discography — built with minimum dependencies (React 19, Vite, SCSS, Lenis smooth scroll) as a deliberate exercise in "default mode" web development. Content is sourced from a single `src/data/data.json` file listing each release, its label, catalogue number, cover art and full tracklist. Each track links to its Bandcamp page.
+This site doubles as a React sandbox and a shelf for his discography, built with minimum dependencies (React 19, Vite, SCSS, Lenis smooth scroll) as a deliberate exercise in "default mode" web development. Content of each release, its label, catalogue number and cover art. Each track links to its Bandcamp page.
 
 ## Releases
 
 - [BoSsOb](https://illegalalienrecords.bandcamp.com/album/bossob-ep): 4-track EP on Illegal Alien Records (IAR213, digital, 2018). Includes remixes by Corvum and A Thousand Details.
+
 - [Leafy plains of incoherence between shadows until dawn](https://polymorphism.bandcamp.com/album/leafy-plains-of-incoherence-between-shadows-until-dawn-pm001): 8-track release on Polymorphism Records (PM001, vinyl & digital, 2019). Four originals plus remixes by Hector MAD, Solarmental, Neri J and JLTZ.
+
 - [Magia a la luz de bajo consumo](https://alcatapes.bandcamp.com/album/magia-a-la-luz-de-bajo-consumo): 10-track LP on ALCATAPES (ALCATAPE01, cassette & digital, 2020). Five originals plus remixes by Marcos F, Aware, Xnx, Eduardo Dito and Ruben Montesco.
+
 - [Cualquier parecido con la coincidencia es mera casualidad](https://alcatapes.bandcamp.com/album/cualquier-parecido-con-la-coincidencia-es-mera-casualidad-alcatape02): Various Artists compilation on ALCATAPES (ALCATAPE02, double cassette & digital, 2022). 19 tracks including Alcarcia's "Severe Disrepair".
+
 - [Mambo Caníbal - Pretensiones varias e inequívocas falacias](https://globoffcorp.bandcamp.com/album/pretensiones-varias-e-inequ-vocas-falacias): Collaboration with Aware on Global Offensive Corporation (Tested Resources 003, digital, 2024). Single piece split across 5 tracks.
+
 - [En la Hemeroteca: Historia de Espirituses](https://alcatapes.bandcamp.com/album/en-la-hemeroteca-historia-de-espirituses-minialbum-2025): 7-track minialbum on ALCATAPES (ALCATAPE03, digital, 2025). Includes collaborations with Damn Bell D'or, Marcos F and Mambo Caníbal.
 
 ## Labels
 
 - [Illegal Alien Records](https://illegalalienrecords.bandcamp.com): Techno label, home of the 2018 BoSsOb EP.
 - [Polymorphism Records](https://polymorphism.bandcamp.com): Vinyl-focused imprint, released the 2019 PM001 debut LP.
+
 - [ALCATAPES](https://alcatapes.bandcamp.com): Cassette label run in Damalga's orbit; three releases in the catalogue (2020, 2022, 2025).
+
 - [Global Offensive Corporation](https://globoffcorp.bandcamp.com): Experimental label hosting the 2024 Mambo Caníbal collaboration.
 
 ## Related
 
 - [damalga.com](https://damalga.com): Damalga's graphic design and web development portfolio — the "other half" of Alcarcia.
-
-## Optional
-
-- [Alcarcia Source code](https://github.com/damalga/alcarcia-web): Repository for this website.
-- [Damalga Source code](https://github.com/damalga/damalga-web): Sister project referenced in the site's philosophy, same "default mode, minimum dependencies" ethos.
