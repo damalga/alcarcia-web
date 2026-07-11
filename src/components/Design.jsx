@@ -9,7 +9,7 @@ function Design() {
           <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
             React.js
           </a>{" "}
-          playground and a flexing ground to show my responsive design muscles... I dropped{" "}
+          playground and a way to show my responsive design muscles... I dropped{" "}
           <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer">
             jQuery
           </a>{" "}
