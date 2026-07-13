@@ -11,34 +11,29 @@ main {
       width: 27%;
       display: table-cell;
       position: relative;
-      border: 0.04rem solid transparent;
-      border-right-color: $light-gray;
-      border-bottom-color: $light-gray;
-      transition:
-        transform 0.4s ease,
-        border-color 0.3s ease;
+      border-right: 0.04rem solid $light-gray;
+      border-bottom: 0.04rem solid $light-gray;
       img {
         width: 100%;
-        border-right: 0.04rem solid $light-gray;
         border-bottom: 0.04rem solid $light-gray;
         vertical-align: top;
         transition: filter 0.2s ease;
-      }
-      a:hover img {
-        filter: brightness(1.12);
       }
       &:hover {
         background: $mid-gray;
         transform: scale(1.024);
         z-index: 10;
-        border-color: $light-gray;
+        border: 0.04rem solid $light-gray;
+        img {
+          filter: brightness(1.08);
+        }
       }
       .release-txt {
         padding: 1rem;
         .release-title,
         .label,
         .date {
-          margin-bottom: 1rem;
+          margin-bottom: 0.6rem;
         }
         .release-title {
           line-height: 1.4em;
@@ -65,10 +60,6 @@ main {
         .release-txt {
           display: block;
           width: 100%;
-        }
-        img {
-          border-bottom: 0;
-          margin-bottom: -0.4rem;
         }
         .release-txt {
           flex: 1;

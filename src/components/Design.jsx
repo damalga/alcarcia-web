@@ -27,7 +27,7 @@ function Design() {
       <div className="section-2">
         <div className="damalga-txt">
           <p>
-            Alcarcia is also Damalga as<br></br>SYSTEMS BUILDER AND CREATIVE WEB CODER
+            Alcarcia is also Damalga as<br></br>GRAPHIC DESIGNER AND WEB DEVELOPER
           </p>
           <h3>
             <a href="https://damalga.com" target="_blank" rel="noopener noreferrer">
