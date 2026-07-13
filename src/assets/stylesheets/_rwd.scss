@@ -161,6 +161,9 @@
 }
 
 @media (max-width: 720px) {
+    .bg {
+        animation: none;
+    }
     header {
         .section-1,
         .section-2 {
