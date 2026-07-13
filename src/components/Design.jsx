@@ -7,19 +7,19 @@ function Design() {
         <p>
           This website is a shelf for my electronic music, a{" "}
           <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
-            React.js
+            React
           </a>{" "}
           playground and a way to show my responsive design muscles... I dropped{" "}
           <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer">
             jQuery
           </a>{" "}
-          the day I realized vanilla JS could do everything it could (and more). I've always been a minimalist at heart:
-          default mode and few dependencies.
+          the day I realized vanilla JavaScript* could do everything it could (and more). I've always been a minimalist
+          at heart: default mode and few dependencies.
         </p>
         <br></br>
         <p>
-          I love JavaScript*, but its abstraction layers sometimes weigh on me. So I put GNU/Linux on a ThinkPad and got
-          into shell, scripting and build systems. Not quitting JS*. Not quitting music. Just... not quitting ;)
+          I love JS*, but its abstraction layers sometimes weigh on me. So I put GNU/Linux on a ThinkPad and got into
+          shell, scripting and build systems. Not quitting JS*. Not quitting music. Just... not quitting ;)
         </p>
         <br></br>
         <p>A virtual hug 2U.</p>
