@@ -4,9 +4,25 @@ import { dirname, resolve } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = resolve(__dirname, "../src/data/data.json");
+const BIO_PATH = resolve(__dirname, "../src/data/bio.json");
 
 const SITE = "https://www.alcarcia.com";
 const ARTIST_ID = `${SITE}/#artist`;
+const PERSON_ID = `${SITE}/#damalga`;
+const WEBSITE_ID = `${SITE}/#website`;
+
+const SAME_AS = [
+  "https://damalga.com",
+  "https://github.com/damalga",
+  "https://github.com/damalga/alcarcia-web",
+  "https://alcatapes.bandcamp.com/",
+  "https://soundcloud.com/alcarcia",
+  "https://www.discogs.com/artist/6426813-Alcarcia",
+  "https://bsky.app/profile/alcarciandamalga.bsky.social",
+  "https://illegalalienrecords.bandcamp.com/album/bossob-ep",
+  "https://polymorphism.bandcamp.com/album/leafy-plains-of-incoherence-between-shadows-until-dawn-pm001",
+  "https://globoffcorp.bandcamp.com/album/pretensiones-varias-e-inequ-vocas-falacias",
+];
 
 const FORMAT_TO_SCHEMA = {
   Digital: "https://schema.org/DigitalFormat",
@@ -34,7 +50,6 @@ function extractFormats(cat) {
 }
 
 function absoluteImage(cover) {
-  // /img/webp/cover1.webp -> https://www.alcarcia.com/img/cover1.jpg (JPEG is safer for OG/schema)
   const jpg = cover.replace("/webp/", "/").replace(/\.webp$/, ".jpg");
   return `${SITE}${jpg}`;
 }
@@ -90,7 +105,6 @@ function buildAlbum(r) {
     }));
   }
 
-  // On the VA compilation, mark Alcarcia as a contributor since he isn't the album artist.
   if (override.byArtistName === "Various Artists") {
     album.contributor = { "@id": ARTIST_ID };
   }
@@ -98,15 +112,64 @@ function buildAlbum(r) {
   return album;
 }
 
+function buildArtist(bioParagraphs) {
+  return {
+    "@type": "MusicGroup",
+    "@id": ARTIST_ID,
+    name: "Alcarcia",
+    alternateName: "Damalga",
+    url: `${SITE}/`,
+    image: `${SITE}/img/og.webp`,
+    description: bioParagraphs.join("\n\n"),
+    genre: ["Electronic", "Techno", "Experimental", "Ambient"],
+    foundingLocation: {
+      "@type": "Place",
+      name: "Madrid, Spain",
+    },
+    sameAs: SAME_AS,
+    member: { "@id": PERSON_ID },
+  };
+}
+
+function buildPerson() {
+  return {
+    "@type": "Person",
+    "@id": PERSON_ID,
+    name: "Damalga",
+    jobTitle: "Electronic Music Producer, Graphic Designer, Web Developer",
+    url: "https://damalga.com",
+    sameAs: ["https://damalga.com", "https://github.com/damalga"],
+  };
+}
+
+function buildWebSite() {
+  return {
+    "@type": "WebSite",
+    "@id": WEBSITE_ID,
+    url: `${SITE}/`,
+    name: "Alcarcia",
+    publisher: { "@id": ARTIST_ID },
+    inLanguage: "es",
+  };
+}
+
 export default function schemaPlugin() {
   return {
     name: "alcarcia-schema-injector",
     transformIndexHtml(html) {
       const releases = JSON.parse(readFileSync(DATA_PATH, "utf-8"));
+      const { bio } = JSON.parse(readFileSync(BIO_PATH, "utf-8"));
+
       const graph = {
         "@context": "https://schema.org",
-        "@graph": releases.map(buildAlbum),
+        "@graph": [
+          buildArtist(bio),
+          buildPerson(),
+          buildWebSite(),
+          ...releases.map(buildAlbum),
+        ],
       };
+
       const script = `<script type="application/ld+json">\n${JSON.stringify(graph, null, 2)}\n</script>`;
       return html.replace("</head>", `    ${script}\n  </head>`);
     },

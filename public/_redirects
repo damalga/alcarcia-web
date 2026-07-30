@@ -1,0 +1,3 @@
+# SPA fallback: /about serves the same index.html so React can open the About modal
+# (URL stays as /about; Netlify prerender will capture the rendered content per route)
+/about   /index.html   200

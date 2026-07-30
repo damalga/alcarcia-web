@@ -1,9 +1,11 @@
+import About from './About';
+
 function Header() {
   return (
     <header>
       <section className="section-1">
         <h1>Alcarcia</h1>
-        <p>Spaniard music producer and Co-founder of <a href="https://polymorphismrecords.com" className="poly-red" target="_blank" rel="noopener noreferrer">Polymorphism Records</a>.</p>
+        <p>Spaniard music producer and Co-founder of <a href="https://polymorphismrecords.com" className="poly-red" target="_blank" rel="noopener noreferrer">Polymorphism Records</a>. <About /></p>
         <a href="https://polymorphismrecords.com" className="chip-pm-link" target="_blank" rel="noopener noreferrer">
           <img src="/img/webp/chip-pm.webp" alt="Polymorphism Records - Microchip - Website"></img>
         </a>
