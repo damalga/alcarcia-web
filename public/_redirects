@@ -1,0 +1,7 @@
+# Serve well-known files 200 on the apex host without redirecting to www.
+# Some AI crawlers do not follow 301s on well-known files (robots.txt, sitemap, llms.txt).
+# 200! forces the rewrite even against the site's primary-domain redirect.
+https://alcarcia.com/robots.txt      /robots.txt      200!
+https://alcarcia.com/sitemap.xml     /sitemap.xml     200!
+https://alcarcia.com/llms.txt        /llms.txt        200!
+https://alcarcia.com/llms-full.txt   /llms-full.txt   200!

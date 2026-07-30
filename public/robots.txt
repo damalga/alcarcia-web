@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://www.alcarcia.com/sitemap.xml
+
 # Structured index for LLMs: /llms.txt (compact) and /llms-full.txt (expanded)
