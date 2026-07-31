@@ -1,5 +1,23 @@
 @use "colors" as *;
 
+html {
+    scrollbar-color: $alca-yellow $mid-gray;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: $mid-gray;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $alca-yellow;
+}
+
 body {
     background-color: $mid-gray;
     margin: 16px auto;
